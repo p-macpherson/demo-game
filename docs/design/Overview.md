@@ -27,7 +27,7 @@ gold inside. Find every chest to win.
 | Barrel | `assets/models/barrel` | 0.9 m scenery, solid |
 | Boulder | `assets/models/rock` | 0.7 m mossy scenery, solid |
 
-The clearing is `assets/scenes/clearing.json`: a grassy ground, four chests, and barrels and boulders placed
+The clearing is `assets/scenes/clearing.json`: a ground tiled with the grass texture (`assets/textures/grass`, 2.5 m tile, tinted a little greener), a winding cobblestone path (`assets/textures/cobblestone`, 1.5 m tile) from the goblin's start with a branch toward each chest that stops short of it, four chests, and barrels and boulders placed
 as landmarks. Each kind of thing is a prefab in `assets/prefabs/`.
 
 ## Music

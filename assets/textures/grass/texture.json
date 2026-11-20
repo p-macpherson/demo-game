@@ -1,0 +1,11 @@
+{
+	"prompt": "short mossy clearing grass, fine even grass blades and moss, uniform low contrast, muted mid green, stylised hand-painted game texture, calm palette, no flowers, no bright spots",
+	"tile": 2.5,
+	"source": "candidates/grass-1133573126-quilt.png",
+	"normal_strength": 2,
+	"roughness": [
+		0.8,
+		0.95
+	],
+	"notes": "Calm low-contrast mossy clearing grass for the 40x40 m ground."
+}

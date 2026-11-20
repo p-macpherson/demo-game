@@ -1,0 +1,11 @@
+{
+	"prompt": "rustic cobblestone footpath, rounded irregular warm grey-brown stones, a little green moss in the gaps, stylised hand-painted game texture, chunky shapes, calm palette, light earthy tones",
+	"tile": 1.5,
+	"source": "candidates/cobblestone-2009018917-roll.png",
+	"normal_strength": 6,
+	"roughness": [
+		0.7,
+		0.95
+	],
+	"notes": "Cobblestone footpath strips (~1.5 m wide) in the clearing"
+}
