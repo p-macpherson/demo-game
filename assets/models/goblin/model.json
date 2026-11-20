@@ -1,0 +1,101 @@
+{
+	"name": "goblin",
+	"description": "A small stylised cartoon goblin adventurer with green skin, big ears, leather vest and boots, full body standing in an A-pose with arms held out clear of the body, empty hands, front view",
+	"concept": "concepts/goblin-19433443.png",
+	"conceptSource": {
+		"prompt": "A small stylised cartoon goblin adventurer with green skin, big ears, leather vest and boots, full body standing in an A-pose with arms held out clear of the body, empty hands, front view",
+		"seed": 19433443,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:17:28.654Z"
+	},
+	"height": 1.1,
+	"textured": true,
+	"rigged": true,
+	"steps": [
+		{
+			"kind": "shape",
+			"model": "hunyuan3d-dit-v2-mini-turbo",
+			"seed": 222617643,
+			"seconds": 42.6,
+			"at": "2026-11-20T00:32:38.445Z"
+		},
+		{
+			"kind": "texture",
+			"model": "hunyuan3d-paint-v2-0-turbo",
+			"seconds": 58.3,
+			"at": "2026-11-20T00:33:36.728Z"
+		},
+		{
+			"kind": "rig",
+			"model": "UniRig articulation-xl",
+			"seconds": 51.6,
+			"at": "2026-11-20T00:34:31.051Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 2.8,
+			"at": "2026-11-20T00:34:33.830Z"
+		},
+		{
+			"kind": "animate",
+			"seconds": 1,
+			"at": "2026-11-20T00:34:50.644Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1.5,
+			"at": "2026-11-20T00:34:52.139Z"
+		}
+	],
+	"rig": "auto",
+	"stats": {
+		"primitives": 1,
+		"vertices": 26093,
+		"max_primitive_vertices": 26093,
+		"triangles": 40000,
+		"bones": 46,
+		"animations": [
+			"idle",
+			"walk",
+			"wave"
+		],
+		"size": [
+			1.096,
+			1.1,
+			0.621
+		],
+		"decimated": [],
+		"seconds": 1.5
+	},
+	"bones": {
+		"hips": "bone_0",
+		"spine": "bone_1",
+		"spine.001": "bone_2",
+		"chest": "bone_3",
+		"neck": "bone_4",
+		"head": "bone_5",
+		"shoulder.R": "bone_22",
+		"upper_arm.R": "bone_23",
+		"forearm.R": "bone_24",
+		"hand.R": "bone_25",
+		"shoulder.L": "bone_6",
+		"upper_arm.L": "bone_7",
+		"forearm.L": "bone_8",
+		"hand.L": "bone_9",
+		"thigh.L": "bone_38",
+		"shin.L": "bone_39",
+		"foot.L": "bone_40",
+		"toe.L": "bone_41",
+		"thigh.R": "bone_42",
+		"shin.R": "bone_43",
+		"foot.R": "bone_44",
+		"toe.R": "bone_45"
+	},
+	"clips": [
+		"idle",
+		"walk",
+		"wave"
+	]
+}
