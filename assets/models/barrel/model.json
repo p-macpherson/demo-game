@@ -1,0 +1,63 @@
+{
+	"name": "barrel",
+	"description": "A stylised wooden barrel with iron hoops, standing upright, three-quarter view",
+	"concept": "concepts/barrel-1115305194.png",
+	"conceptSource": {
+		"prompt": "A stylised wooden barrel with iron hoops, standing upright, three-quarter view",
+		"seed": 1115305194,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:37:07.936Z"
+	},
+	"height": 0.9,
+	"textured": true,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "shape",
+			"model": "hunyuan3d-dit-v2-mini-turbo",
+			"seed": 206502931,
+			"seconds": 45.8,
+			"at": "2026-11-20T00:41:06.882Z"
+		},
+		{
+			"kind": "texture",
+			"model": "hunyuan3d-paint-v2-0-turbo",
+			"seconds": 51.8,
+			"at": "2026-11-20T00:41:58.678Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1.9,
+			"at": "2026-11-20T00:42:00.633Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-20T01:04:04.770Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-20T01:05:24.742Z"
+		}
+	],
+	"stats": {
+		"primitives": 1,
+		"vertices": 23764,
+		"max_primitive_vertices": 23764,
+		"triangles": 40000,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			0.664,
+			0.9,
+			0.646
+		],
+		"decimated": [],
+		"seconds": 1
+	},
+	"source": "source/textured.glb"
+}
