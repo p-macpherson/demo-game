@@ -1,0 +1,24 @@
+{
+  "title": "Treasure Found",
+  "tempo": 132,
+  "meter": [4, 4],
+  "key": "D major",
+  "loop": false,
+  "style": "short bright treasure jingle: glockenspiel sparkle over pizzicato strings, ends on a ringing D major chord",
+  "instruments": {
+    "glock": { "program": "glockenspiel", "volume": 0.8, "reverb": 0.5 },
+    "pluck": { "program": "pizzicato strings", "volume": 0.7, "reverb": 0.4 },
+    "harp": { "program": "orchestral harp", "volume": 0.6, "reverb": 0.5 }
+  },
+  "sections": {
+    "jingle": {
+      "bars": 2,
+      "tracks": {
+        "glock": "A5:e3! B5 C#6 D6:e F#6 A6:q! r:e F#6 | D6:h! r:h",
+        "pluck": "D4:e! F#4 A4 D5 r:h | [D4 F#4 A4 D5]:q! r:q r:h",
+        "harp": "r:h D3:e3 F#3 A3 D4:e3 F#4 A4 | [D3 A3 D4 F#4]:w"
+      }
+    }
+  },
+  "arrangement": ["jingle"]
+}
