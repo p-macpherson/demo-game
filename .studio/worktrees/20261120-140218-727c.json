@@ -1,0 +1,12 @@
+{
+	"id": "20261120-140218-727c",
+	"label": "Add a fourth chest behind the rock",
+	"target": "project",
+	"branch": "studio/20261120-140218-727c",
+	"baseBranch": "main",
+	"baseCommit": "41f5b85180411899ee4a48cdb90218eb55bb1e14",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T03:02:18.526Z",
+	"updatedAt": "2026-11-20T11:10:03.459Z"
+}

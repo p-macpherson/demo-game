@@ -1,0 +1,12 @@
+{
+	"id": "20261120-111627-6377",
+	"label": "Model: goblin",
+	"target": "project",
+	"branch": "studio/20261120-111627-6377",
+	"baseBranch": "main",
+	"baseCommit": "f50a8e35c1653d47f751484e41ff623e78f0a5cf",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T00:16:27.812Z",
+	"updatedAt": "2026-11-20T11:10:03.457Z"
+}

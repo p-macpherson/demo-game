@@ -1,0 +1,12 @@
+{
+	"id": "20261120-113714-81b6",
+	"label": "Model: rock",
+	"target": "project",
+	"branch": "studio/20261120-113714-81b6",
+	"baseBranch": "main",
+	"baseCommit": "40a7140f266de62e2328888073512332db577b22",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T00:37:14.717Z",
+	"updatedAt": "2026-11-20T11:10:03.458Z"
+}

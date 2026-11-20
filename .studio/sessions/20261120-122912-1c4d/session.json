@@ -4,15 +4,12 @@
 	"agentType": "3d-modeller",
 	"target": "project",
 	"status": "done",
-	"branch": "studio/20261120-122912-1c4d",
-	"baseBranch": "main",
-	"baseCommit": "c92639614d96e487cec51d686a8bd7900727d093",
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"linkedAsset": "assets/models/rock/model.json",
 	"createdAt": "2026-11-20T01:29:12.800Z",
 	"updatedAt": "2026-11-20T01:39:54.503Z",
-	"worktree": "removed",
 	"outcome": "discarded",
-	"reviewRequested": false
+	"reviewRequested": false,
+	"worktreeId": "20261120-122912-1c4d"
 }

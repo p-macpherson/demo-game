@@ -1,0 +1,12 @@
+{
+	"id": "20261120-150225-461a",
+	"label": "Scene: clearing",
+	"target": "project",
+	"branch": "studio/20261120-150225-461a",
+	"baseBranch": "main",
+	"baseCommit": "bdfd6d56e085779d9e1119bc6d630873a1124158",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T04:02:25.807Z",
+	"updatedAt": "2026-11-20T11:10:03.459Z"
+}

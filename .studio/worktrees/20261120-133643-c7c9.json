@@ -1,0 +1,12 @@
+{
+	"id": "20261120-133643-c7c9",
+	"label": "Music: goblin-gold",
+	"target": "project",
+	"branch": "studio/20261120-133643-c7c9",
+	"baseBranch": "main",
+	"baseCommit": "3be159d41790ee2e08b147c7210a4bff53601f1c",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T02:36:43.295Z",
+	"updatedAt": "2026-11-20T11:10:03.458Z"
+}

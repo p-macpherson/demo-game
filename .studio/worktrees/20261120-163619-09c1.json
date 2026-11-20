@@ -1,0 +1,12 @@
+{
+	"id": "20261120-163619-09c1",
+	"label": "make another path of rocks",
+	"target": "project",
+	"branch": "studio/20261120-163619-09c1",
+	"baseBranch": "main",
+	"baseCommit": "9bbd49e674f833b9bf0b93a9ab8c0325f2e75a8b",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T05:36:19.292Z",
+	"updatedAt": "2026-11-20T11:10:03.459Z"
+}

@@ -1,0 +1,12 @@
+{
+	"id": "20261120-175630-25e7",
+	"label": "Give Goblin Gold its sound effects. They're made and merged ",
+	"target": "project",
+	"branch": "studio/20261120-175630-25e7",
+	"baseBranch": "main",
+	"baseCommit": "1b288661bedeedada1a82b987920d1efcb9e6469",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T06:56:30.265Z",
+	"updatedAt": "2026-11-20T11:10:03.460Z"
+}

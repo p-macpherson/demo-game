@@ -1,0 +1,12 @@
+{
+	"id": "20261120-113618-da70",
+	"label": "Model: barrel",
+	"target": "project",
+	"branch": "studio/20261120-113618-da70",
+	"baseBranch": "main",
+	"baseCommit": "40a7140f266de62e2328888073512332db577b22",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T00:36:18.992Z",
+	"updatedAt": "2026-11-20T11:10:03.457Z"
+}

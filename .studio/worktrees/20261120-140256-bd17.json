@@ -1,0 +1,12 @@
+{
+	"id": "20261120-140256-bd17",
+	"label": "Lantern prop model",
+	"target": "project",
+	"branch": "studio/20261120-140256-bd17",
+	"baseBranch": "main",
+	"baseCommit": "41f5b85180411899ee4a48cdb90218eb55bb1e14",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T03:02:56.867Z",
+	"updatedAt": "2026-11-20T11:10:03.459Z"
+}

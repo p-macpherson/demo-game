@@ -1,0 +1,12 @@
+{
+	"id": "20261120-195454-eb25",
+	"label": "Projectile whoosh-by sound",
+	"target": "project",
+	"branch": "studio/20261120-195454-eb25",
+	"baseBranch": "main",
+	"baseCommit": "085a02243b818f65177c9d9b2e7a18279525db7a",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T08:54:54.355Z",
+	"updatedAt": "2026-11-20T11:10:03.460Z"
+}

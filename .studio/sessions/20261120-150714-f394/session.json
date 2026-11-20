@@ -4,16 +4,13 @@
 	"agentType": "level-designer",
 	"target": "project",
 	"status": "done",
-	"branch": "studio/20261120-150714-f394",
-	"baseBranch": "main",
-	"baseCommit": "6c8933a3c06cb045bb5818cbb1864fc88bed6f07",
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"linkedAsset": "assets/scenes/clearing.json",
 	"createdAt": "2026-11-20T04:07:14.595Z",
 	"updatedAt": "2026-11-20T04:11:38.538Z",
-	"worktree": "removed",
 	"outcome": "discarded",
 	"reviewRequested": false,
-	"piSessionFile": "2026-11-20T04-07-14-805Z_01a1f723-1874-7049-b80b-b26e2cc073c1.jsonl"
+	"piSessionFile": "2026-11-20T04-07-14-805Z_01a1f723-1874-7049-b80b-b26e2cc073c1.jsonl",
+	"worktreeId": "20261120-150714-f394"
 }

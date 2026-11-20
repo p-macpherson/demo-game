@@ -4,16 +4,13 @@
 	"agentType": "music-composer",
 	"target": "project",
 	"status": "done",
-	"branch": "studio/20261120-140242-f848",
-	"baseBranch": "main",
-	"baseCommit": "41f5b85180411899ee4a48cdb90218eb55bb1e14",
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"linkedAsset": "assets/music/goblin-gold/song.json",
 	"createdAt": "2026-11-20T03:02:42.789Z",
 	"updatedAt": "2026-11-20T03:04:29.700Z",
-	"worktree": "removed",
 	"outcome": "merged",
 	"reviewRequested": false,
-	"piSessionFile": "2026-11-20T03-02-43-048Z_01a1f6e8-0467-74ca-9cf3-f76581b07d6e.jsonl"
+	"piSessionFile": "2026-11-20T03-02-43-048Z_01a1f6e8-0467-74ca-9cf3-f76581b07d6e.jsonl",
+	"worktreeId": "20261120-140242-f848"
 }

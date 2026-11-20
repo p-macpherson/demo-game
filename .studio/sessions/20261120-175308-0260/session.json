@@ -4,15 +4,12 @@
 	"agentType": "sound-designer",
 	"target": "project",
 	"status": "done",
-	"branch": "studio/20261120-175308-0260",
-	"baseBranch": "main",
-	"baseCommit": "8a0a66084b9855aad092cfe0c94ac310161a3260",
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"linkedAsset": "assets/sounds/gold/sound.json",
 	"createdAt": "2026-11-20T06:53:08.169Z",
 	"updatedAt": "2026-11-20T06:55:15.839Z",
-	"worktree": "removed",
 	"outcome": "merged",
-	"reviewRequested": false
+	"reviewRequested": false,
+	"worktreeId": "20261120-175308-0260"
 }

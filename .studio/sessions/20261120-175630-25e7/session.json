@@ -4,15 +4,12 @@
 	"agentType": "gameplay-engineer",
 	"target": "project",
 	"status": "done",
-	"branch": "studio/20261120-175630-25e7",
-	"baseBranch": "main",
-	"baseCommit": "1b288661bedeedada1a82b987920d1efcb9e6469",
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"createdAt": "2026-11-20T06:56:30.265Z",
 	"updatedAt": "2026-11-20T06:58:30.265Z",
-	"worktree": "removed",
 	"outcome": "merged",
 	"reviewRequested": false,
-	"piSessionFile": "2026-11-20T06-56-30-770Z_01a1f7be-1032-7368-ba0e-ccaa192475b4.jsonl"
+	"piSessionFile": "2026-11-20T06-56-30-770Z_01a1f7be-1032-7368-ba0e-ccaa192475b4.jsonl",
+	"worktreeId": "20261120-175630-25e7"
 }
