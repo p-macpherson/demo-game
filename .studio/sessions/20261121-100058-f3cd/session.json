@@ -1,0 +1,17 @@
+{
+	"id": "20261121-100058-f3cd",
+	"title": "Grass texture for clearing",
+	"agentType": "texture-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"parentId": "20261121-100051-4691",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/textures/grass/texture.json",
+	"createdAt": "2026-11-20T23:00:58.764Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-00-58-770Z_01a1fb31-0f12-77c4-81f2-ba6ec71fc920.jsonl"
+}

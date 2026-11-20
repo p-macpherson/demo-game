@@ -1,0 +1,16 @@
+{
+	"id": "20261121-100025-b617",
+	"title": "Clearing surfaces: grass texture + cobblestone path",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "assets/scenes/clearing.json",
+	"createdAt": "2026-11-20T23:00:25.717Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-00-26-103Z_01a1fb30-8f77-77c4-81f2-ba6b0a8d8939.jsonl"
+}
