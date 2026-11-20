@@ -1,0 +1,74 @@
+{
+	"main-6000.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6000,
+		"model": "stable-audio-open-small",
+		"clap": 0.2142,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6001.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6001,
+		"model": "stable-audio-open-small",
+		"clap": 0.1982,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6002.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6002,
+		"model": "stable-audio-open-small",
+		"clap": 0.3474,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6003.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6003,
+		"model": "stable-audio-open-small",
+		"clap": 0.2722,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6004.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6004,
+		"model": "stable-audio-open-small",
+		"clap": 0.2071,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6005.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6005,
+		"model": "stable-audio-open-small",
+		"clap": 0.1249,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6006.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6006,
+		"model": "stable-audio-open-small",
+		"clap": 0.3081,
+		"at": "2026-11-20T06:53:07.412Z"
+	},
+	"main-6007.wav": {
+		"layer": "main",
+		"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
+		"seconds": 2.5,
+		"seed": 6007,
+		"model": "stable-audio-open-small",
+		"clap": 0.2787,
+		"at": "2026-11-20T06:53:07.412Z"
+	}
+}
