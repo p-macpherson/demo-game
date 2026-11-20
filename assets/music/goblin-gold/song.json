@@ -1,0 +1,79 @@
+{
+  "title": "Goblin Gold",
+  "tempo": 104,
+  "meter": [
+    4,
+    4
+  ],
+  "key": "D dorian",
+  "loop": true,
+  "style": "whimsical folk adventure for a small goblin treasure hunter: wooden flute and clarinet over pizzicato strings, warm string pad, acoustic bass, light hand percussion",
+  "instruments": {
+    "flute": {
+      "program": "flute",
+      "volume": 0.85,
+      "pan": 0.15,
+      "reverb": 0.35
+    },
+    "clarinet": {
+      "program": "clarinet",
+      "volume": 0.8,
+      "pan": -0.15,
+      "reverb": 0.35
+    },
+    "pluck": {
+      "program": "pizzicato strings",
+      "volume": 0.6,
+      "pan": -0.35,
+      "reverb": 0.3
+    },
+    "pad": {
+      "program": "string ensemble 1",
+      "volume": 0.38,
+      "reverb": 0.5
+    },
+    "bass": {
+      "program": "acoustic bass",
+      "volume": 0.75
+    },
+    "perc": {
+      "drums": true,
+      "volume": 0.5,
+      "reverb": 0.2
+    }
+  },
+  "sections": {
+    "intro": {
+      "bars": 2,
+      "tracks": {
+        "pluck": "D3:e! A3? D4 F4? D4 A3? D4 F4? | A2:e! E3? A3 C#4? A3 E3? A3 C#4?",
+        "bass": "D2:q. D2:e A2:h | A1:q. A1:e E2:h"
+      }
+    },
+    "A": {
+      "bars": 8,
+      "tracks": {
+        "flute": "A4:q D5:e E5 F5:q E5:e D5 | E5:q. D5:e C5:h | D5:q F5:e G5 A5:q G5:e F5 | G5:h. r:q | A5:q! G5:e F5 E5:q F5:e G5 | E5:q. D5:e C5:q E5 | D5:q C5:e Bb4 C5:q D5 | C#5:h E5:q A4",
+        "pluck": "D3:e! A3? D4 F4? D4 A3? D4 F4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | Bb2:e! F3? Bb3 D4? Bb3 F3? Bb3 D4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | D3:e! A3? D4 F4? D4 A3? D4 F4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | Bb2:e! F3? Bb3 D4? Bb3 F3? Bb3 D4? | A2:e! E3? A3 C#4? A3 E3? A3 C#4?",
+        "bass": "D2:q. D2:e A2:h | C2:q. C2:e G2:h | Bb1:q. Bb1:e F2:h | C2:q. C2:e G2:h | D2:q. D2:e A2:h | C2:q. C2:e G2:h | Bb1:q. Bb1:e F2:h | A1:q. A1:e E2:h",
+        "perc": "conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2"
+      }
+    },
+    "B": {
+      "bars": 8,
+      "tracks": {
+        "clarinet": "C5:q. A4:e F4:q A4 | G4:q. E4:e C4:h | D4:q F4:e A4 D5:q C5 | Bb4:h. r:q | A4:q C5:e F5 E5:q D5 | C5:q. Bb4:e G4:h | Bb4:q A4:e G4 F4:q G4 | A4:h C#5:q E5",
+        "pad": "[F4 A4 C5]:w | [C4 E4 G4]:w | [D4 F4 A4]:w | [Bb3 D4 F4]:w | [F4 A4 C5]:w | [C4 E4 G4]:w | [G3 Bb3 D4]:w | [A3 C#4 E4]:w",
+        "pluck": "F3:e! C4? F4 A4? F4 C4? F4 A4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | D3:e! A3? D4 F4? D4 A3? D4 F4? | Bb2:e! F3? Bb3 D4? Bb3 F3? Bb3 D4? | F3:e! C4? F4 A4? F4 C4? F4 A4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | G2:e! D3? G3 Bb3? G3 D3? G3 Bb3? | A2:e! E3? A3 C#4? A3 E3? A3 C#4?",
+        "bass": "F2:q. F2:e C3:h | C2:q. C2:e G2:h | D2:q. D2:e A2:h | Bb1:q. Bb1:e F2:h | F2:q. F2:e C3:h | C2:q. C2:e G2:h | G2:q. G2:e D3:h | A1:q. A1:e E2:h",
+        "perc": "conga:e! shaker? shaker shaker? congamute:e shaker? shaker shaker?"
+      }
+    }
+  },
+  "arrangement": [
+    "intro",
+    "A",
+    "B",
+    "A"
+  ]
+}
