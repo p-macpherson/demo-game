@@ -1,0 +1,6 @@
+{
+  // A treasure chest: solid, with a hinged lid (clips "open" and "close") and some gold inside.
+  "entities": [
+    {"id": 1, "Name": "Chest", "Transform": {}, "Mesh_Renderer": {"mesh": "models/chest/chest.glb"}, "Animator": {"clip": "close", "once": true}, "Rigid_Body": {}, "Chest": {"gold": 10}}
+  ]
+}

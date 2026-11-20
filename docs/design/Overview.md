@@ -1,16 +1,35 @@
-# Demo Game
+# Goblin Gold
 
-> This is the design overview: what the game is and what it's trying to be. Start a **project-scoping**
-> session from the Design Docs section to fill it in.
+> The design overview: what the game is and what it's trying to be. Demo Game is the sandbox Game Studio is
+> developed against, so this game stays deliberately small: big enough to show every studio module working
+> together, small enough to change in an afternoon.
 
 ## Pitch
-_One or two sentences: what the player does and why it's fun._
+A small goblin wanders a mossy clearing looking for treasure. Walk up to a chest, open it, and celebrate the
+gold inside. Find every chest to win.
 
 ## Pillars
-_Three to five principles every design decision is checked against._
+- **Readable at a glance.** Chunky, stylised models and a calm palette; the goblin is always the clearest thing on screen.
+- **Every action has a reaction.** Walking animates, chests creak open, the goblin waves when it finds gold.
+- **Made in the studio.** Every asset comes from a Game Studio module (models from 3D Models, code from Game
+  Code sessions), so the game doubles as a showcase of the pipeline.
 
 ## Core loop
-_What the player does minute to minute._
+1. Explore the clearing with **WASD** (hold the right mouse button and drag to turn the camera, wheel to zoom).
+2. Near a closed chest, press **E** to open it: the lid swings open, gold is added to the counter and the goblin waves.
+3. When every chest is open, the clearing is cleared.
+
+## World
+| Thing | Model | Notes |
+|---|---|---|
+| Goblin (player) | `assets/models/goblin` | 1.1 m tall, rigged; clips `idle`, `walk`, `wave` |
+| Treasure chest | `assets/models/chest` | 0.6 m; hinge rig with `open`/`close` clips; holds gold |
+| Barrel | `assets/models/barrel` | 0.9 m scenery, solid |
+| Boulder | `assets/models/rock` | 0.7 m mossy scenery, solid |
+
+The clearing is `assets/scenes/clearing.json`: a grassy ground, three chests, and barrels and boulders placed
+as landmarks. Each kind of thing is a prefab in `assets/prefabs/`.
 
 ## Scope
-_Platform, length, single or multiplayer, what's deliberately left out._
+Single player, one scene, a few minutes of play. Deliberately left out: enemies, inventory, saving, audio
+(until the Music and SFX modules exist), menus beyond a "cleared" banner.
