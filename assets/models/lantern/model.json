@@ -1,0 +1,51 @@
+{
+	"name": "lantern",
+	"description": "Mossy iron lantern with glowing candle, static scenery prop",
+	"concept": "concepts/lantern-566745320.png",
+	"conceptSource": {
+		"prompt": "A chunky stylised fantasy hand-held lantern, dark iron frame with a ring handle on top, glass panes glowing warm yellow with a small candle flame inside, calm mossy-clearing palette, smooth hand-painted low-poly game prop, standing upright",
+		"seed": 566745320,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T03:03:57.751Z"
+	},
+	"height": 0.4,
+	"textured": true,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "shape",
+			"model": "hunyuan3d-dit-v2-mini-turbo",
+			"seed": 1339424448,
+			"seconds": 42.1,
+			"at": "2026-11-20T03:04:55.443Z"
+		},
+		{
+			"kind": "texture",
+			"model": "hunyuan3d-paint-v2-0-turbo",
+			"seconds": 64.1,
+			"at": "2026-11-20T03:05:59.505Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 2,
+			"at": "2026-11-20T03:06:01.505Z"
+		}
+	],
+	"source": "source/textured.glb",
+	"stats": {
+		"primitives": 1,
+		"vertices": 24008,
+		"max_primitive_vertices": 24008,
+		"triangles": 40000,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			0.213,
+			0.4,
+			0.215
+		],
+		"decimated": [],
+		"seconds": 2
+	}
+}
