@@ -1,0 +1,19 @@
+{
+	"id": "20261120-140256-bd17",
+	"title": "Lantern prop model",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-140256-bd17",
+	"baseBranch": "main",
+	"baseCommit": "41f5b85180411899ee4a48cdb90218eb55bb1e14",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/models/lantern/concepts/contact.png",
+	"createdAt": "2026-11-20T03:02:56.867Z",
+	"updatedAt": "2026-11-20T03:10:22.939Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T03-02-57-099Z_01a1f6e8-3b4b-74ca-9cf3-f767d5a52c56.jsonl"
+}
