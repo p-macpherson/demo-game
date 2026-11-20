@@ -1,0 +1,13 @@
+{
+	"notes": "Goblin snatches a rolled parchment treasure map off the grass: crisp paper rustle with a faint bright sparkle. One-shot, play_sound_at the map, volume ~0.8.",
+	"length": 0.6,
+	"highpass": 150,
+	"peak": -2,
+	"fade": {"in": 0.003, "out": 0.12},
+	"variants": [
+		{"layers": [
+			{"take": "main-1856421249"},
+			{"wave": "sine", "seconds": 0.3, "freq": 2600, "to": 3900, "attack": 0.01, "decay": 0.25, "gain": -18}
+		]}
+	]
+}

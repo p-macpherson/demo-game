@@ -1,0 +1,56 @@
+{
+	"main-1856421249.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421249,
+		"model": "stable-audio-open-small",
+		"clap": 0.2801,
+		"at": "2026-11-20T11:11:46.912Z"
+	},
+	"main-1856421250.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421250,
+		"model": "stable-audio-open-small",
+		"clap": 0.2841,
+		"at": "2026-11-20T11:11:46.912Z"
+	},
+	"main-1856421251.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421251,
+		"model": "stable-audio-open-small",
+		"clap": 0.1343,
+		"at": "2026-11-20T11:11:46.912Z"
+	},
+	"main-1856421252.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421252,
+		"model": "stable-audio-open-small",
+		"clap": 0.2733,
+		"at": "2026-11-20T11:11:46.912Z"
+	},
+	"main-1856421253.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421253,
+		"model": "stable-audio-open-small",
+		"clap": 0.1983,
+		"at": "2026-11-20T11:11:46.912Z"
+	},
+	"main-1856421254.wav": {
+		"group": "main",
+		"prompt": "picking up a rolled parchment paper scroll, short crisp paper rustle, dry close-up foley",
+		"seconds": 1,
+		"seed": 1856421254,
+		"model": "stable-audio-open-small",
+		"clap": 0.2914,
+		"at": "2026-11-20T11:11:46.912Z"
+	}
+}
