@@ -1,74 +1,74 @@
 {
 	"main-5000.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5000,
 		"model": "stable-audio-open-small",
 		"clap": 0.4864,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5001.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5001,
 		"model": "stable-audio-open-small",
 		"clap": 0.4884,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5002.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5002,
 		"model": "stable-audio-open-small",
 		"clap": 0.4942,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5003.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5003,
 		"model": "stable-audio-open-small",
 		"clap": 0.4831,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5004.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5004,
 		"model": "stable-audio-open-small",
 		"clap": 0.4487,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5005.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5005,
 		"model": "stable-audio-open-small",
 		"clap": 0.5293,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5006.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5006,
 		"model": "stable-audio-open-small",
 		"clap": 0.5105,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	},
 	"main-5007.wav": {
-		"layer": "main",
 		"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
 		"seconds": 1.2,
 		"seed": 5007,
 		"model": "stable-audio-open-small",
 		"clap": 0.3586,
-		"at": "2026-11-20T06:53:05.167Z"
+		"at": "2026-11-20T06:53:05.167Z",
+		"group": "main"
 	}
 }

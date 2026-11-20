@@ -1,74 +1,74 @@
 {
 	"main-8000.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8000,
 		"model": "stable-audio-open-small",
 		"clap": 0.3821,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8001.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8001,
 		"model": "stable-audio-open-small",
 		"clap": 0.4526,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8002.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8002,
 		"model": "stable-audio-open-small",
 		"clap": 0.3693,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8003.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8003,
 		"model": "stable-audio-open-small",
 		"clap": 0.3875,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8004.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8004,
 		"model": "stable-audio-open-small",
 		"clap": 0.2814,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8005.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8005,
 		"model": "stable-audio-open-small",
 		"clap": 0.4543,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8006.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8006,
 		"model": "stable-audio-open-small",
 		"clap": 0.3481,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	},
 	"main-8007.wav": {
-		"layer": "main",
 		"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
 		"seconds": 11,
 		"seed": 8007,
 		"model": "stable-audio-open-small",
 		"clap": 0.3151,
-		"at": "2026-11-20T06:53:13.143Z"
+		"at": "2026-11-20T06:53:13.143Z",
+		"group": "main"
 	}
 }

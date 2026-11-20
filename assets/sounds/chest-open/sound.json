@@ -1,14 +1,6 @@
 {
-	"layers": [
-		{
-			"generate": {
-				"prompt": "an old wooden treasure chest lid creaking open slowly, rusty hinges creak, close-up foley, dry",
-				"seconds": 2.5
-			},
-			"takes": [
-				6007
-			]
-		}
-	],
-	"notes": "A chest's lid creaking open when the goblin opens it (played where the chest is)."
+	"notes": "A chest's lid creaking open when the goblin opens it (played where the chest is).",
+	"variants": [
+		{"layers": [{"take": "main-6007"}]}
+	]
 }
