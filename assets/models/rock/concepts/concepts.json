@@ -1,0 +1,50 @@
+{
+	"rock-1946422066.png": {
+		"prompt": "A stylised mossy grey boulder, low and wide, game asset, three-quarter view",
+		"seed": 1946422066,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:38:01.252Z"
+	},
+	"rock-1946422067.png": {
+		"prompt": "A stylised mossy grey boulder, low and wide, game asset, three-quarter view",
+		"seed": 1946422067,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:38:01.252Z"
+	},
+	"rock-1946422068.png": {
+		"prompt": "A stylised mossy grey boulder, low and wide, game asset, three-quarter view",
+		"seed": 1946422068,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:38:01.252Z"
+	},
+	"rock-1946422069.png": {
+		"prompt": "A stylised mossy grey boulder, low and wide, game asset, three-quarter view",
+		"seed": 1946422069,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:38:01.252Z"
+	},
+	"rock-2119229288.png": {
+		"prompt": "A stylised dark charcoal-grey basalt boulder with patches of moss, low and wide, game asset, three-quarter view",
+		"seed": 2119229288,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:53:08.731Z"
+	},
+	"rock-2119229289.png": {
+		"prompt": "A stylised dark charcoal-grey basalt boulder with patches of moss, low and wide, game asset, three-quarter view",
+		"seed": 2119229289,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:53:08.731Z"
+	},
+	"rock-2119229290.png": {
+		"prompt": "A stylised dark charcoal-grey basalt boulder with patches of moss, low and wide, game asset, three-quarter view",
+		"seed": 2119229290,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:53:08.731Z"
+	},
+	"rock-2119229291.png": {
+		"prompt": "A stylised dark charcoal-grey basalt boulder with patches of moss, low and wide, game asset, three-quarter view",
+		"seed": 2119229291,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:53:08.731Z"
+	}
+}

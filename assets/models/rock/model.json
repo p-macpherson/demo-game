@@ -1,0 +1,63 @@
+{
+	"name": "rock",
+	"description": "A stylised mossy grey boulder, low and wide, game asset, three-quarter view",
+	"concept": "concepts/rock-2119229288.png",
+	"conceptSource": {
+		"prompt": "A stylised dark charcoal-grey basalt boulder with patches of moss, low and wide, game asset, three-quarter view",
+		"seed": 2119229288,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:53:08.731Z"
+	},
+	"height": 0.7,
+	"textured": true,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "shape",
+			"model": "hunyuan3d-dit-v2-mini-turbo",
+			"seed": 1746772801,
+			"seconds": 45.5,
+			"at": "2026-11-20T00:54:11.682Z"
+		},
+		{
+			"kind": "texture",
+			"model": "hunyuan3d-paint-v2-0-turbo",
+			"seconds": 56,
+			"at": "2026-11-20T00:55:07.676Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1.9,
+			"at": "2026-11-20T00:55:09.619Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-20T01:04:05.734Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-20T01:05:25.702Z"
+		}
+	],
+	"stats": {
+		"primitives": 1,
+		"vertices": 22128,
+		"max_primitive_vertices": 22128,
+		"triangles": 40000,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			1.334,
+			0.7,
+			1.339
+		],
+		"decimated": [],
+		"seconds": 1
+	},
+	"source": "source/textured.glb"
+}
