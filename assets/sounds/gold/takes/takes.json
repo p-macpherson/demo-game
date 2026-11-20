@@ -1,0 +1,74 @@
+{
+	"main-7000.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7000,
+		"model": "stable-audio-open-small",
+		"clap": 0.4202,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7001.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7001,
+		"model": "stable-audio-open-small",
+		"clap": 0.3639,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7002.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7002,
+		"model": "stable-audio-open-small",
+		"clap": 0.2524,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7003.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7003,
+		"model": "stable-audio-open-small",
+		"clap": 0.3476,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7004.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7004,
+		"model": "stable-audio-open-small",
+		"clap": 0.4644,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7005.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7005,
+		"model": "stable-audio-open-small",
+		"clap": 0.4447,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7006.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7006,
+		"model": "stable-audio-open-small",
+		"clap": 0.362,
+		"at": "2026-11-20T06:53:09.932Z"
+	},
+	"main-7007.wav": {
+		"layer": "main",
+		"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+		"seconds": 2,
+		"seed": 7007,
+		"model": "stable-audio-open-small",
+		"clap": 0.3851,
+		"at": "2026-11-20T06:53:09.932Z"
+	}
+}
