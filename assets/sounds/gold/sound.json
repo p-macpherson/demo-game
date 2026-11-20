@@ -1,0 +1,14 @@
+{
+	"layers": [
+		{
+			"generate": {
+				"prompt": "a handful of gold coins clinking and dropping onto a small pile, bright metallic jingle, close-up, dry",
+				"seconds": 2
+			},
+			"takes": [
+				7000
+			]
+		}
+	],
+	"notes": "The chest's gold: coins jingling onto a pile, just after the lid opens."
+}
