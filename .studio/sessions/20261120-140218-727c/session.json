@@ -1,0 +1,18 @@
+{
+	"id": "20261120-140218-727c",
+	"title": "Add a fourth chest behind the rock",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-140218-727c",
+	"baseBranch": "main",
+	"baseCommit": "41f5b85180411899ee4a48cdb90218eb55bb1e14",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T03:02:18.526Z",
+	"updatedAt": "2026-11-20T03:05:37.881Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T03-02-18-809Z_01a1f6e7-a5b9-74ca-9cf3-f76325ace3df.jsonl"
+}
