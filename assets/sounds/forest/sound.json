@@ -1,0 +1,16 @@
+{
+	"layers": [
+		{
+			"generate": {
+				"prompt": "peaceful forest clearing ambience, birds chirping softly, gentle wind in the leaves, no music",
+				"seconds": 11
+			},
+			"takes": [
+				8001
+			]
+		}
+	],
+	"notes": "The clearing's ambience: soft birdsong and wind, looping for the whole game.",
+	"loop": true,
+	"highpass": 80
+}
