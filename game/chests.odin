@@ -26,6 +26,7 @@ open_chest :: proc(e: Entity) {
 	c.open = true
 	game.gold += c.gold
 	engine.play_animation(e, "open", once = true)
+	engine.play_sound(JINGLE_TREASURE, volume = 0.9, bus = .Music)
 	// Face the chest while celebrating.
 	if t := engine.get(game.player, engine.Transform); t != nil {
 		to := engine.world_position(e) - engine.world_position(game.player)

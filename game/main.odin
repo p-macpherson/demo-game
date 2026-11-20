@@ -52,7 +52,11 @@ setup :: proc() {
 	})
 }
 
+MUSIC_THEME :: "music/goblin-gold/goblin-gold.ogg" // the Music section's "Goblin Gold" (loops)
+JINGLE_TREASURE :: "music/treasure-found/treasure-found.ogg" // "Treasure Found" (plays once)
+
 init :: proc() {
+	engine.play_music(MUSIC_THEME, volume = 0.6)
 	game.player = engine.find("Goblin")
 	game.cam_pitch = 25
 	game.cam_dist = 4.5

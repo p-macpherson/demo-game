@@ -30,6 +30,11 @@ gold inside. Find every chest to win.
 The clearing is `assets/scenes/clearing.json`: a grassy ground, three chests, and barrels and boulders placed
 as landmarks. Each kind of thing is a prefab in `assets/prefabs/`.
 
+## Music
+| Piece | Score | Where it plays |
+|---|---|---|
+| Goblin Gold | `assets/music/goblin-gold/song.json` | The whole game, looping: D dorian, 104 bpm, flute and clarinet over pizzicato strings, about a minute |
+| Treasure Found | `assets/music/treasure-found/song.json` | Once, when a chest opens: a glockenspiel flourish ending on D major |
+
 ## Scope
-Single player, one scene, a few minutes of play. Deliberately left out: enemies, inventory, saving, audio
-(until the Music and SFX modules exist), menus beyond a "cleared" banner.
+Single player, one scene, a few minutes of play. Deliberately left out: enemies, inventory, saving, sound effects (until the SFX module exists), menus beyond a "cleared" banner.
