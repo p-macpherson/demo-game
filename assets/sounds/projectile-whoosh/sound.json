@@ -4,9 +4,9 @@
 	"highpass": 300,
 	"fade": {"out": 0.15},
 	"variants": [
-		{"layers": [{"take": "main-1565909407"}, {"synth": {"wave": "noise", "seconds": 0.35, "attack": 0.12, "decay": 0.2, "highpass": 1500, "lowpass": 6000}, "gain": -14}]},
-		{"layers": [{"take": "main-1565909404"}, {"synth": {"wave": "noise", "seconds": 0.35, "attack": 0.12, "decay": 0.2, "highpass": 1500, "lowpass": 6000}, "gain": -14}]},
-		{"layers": [{"take": "main-1565909403"}, {"synth": {"wave": "noise", "seconds": 0.35, "attack": 0.12, "decay": 0.2, "highpass": 1500, "lowpass": 6000}, "gain": -14}]},
-		{"layers": [{"take": "main-1565909401"}, {"synth": {"wave": "noise", "seconds": 0.35, "attack": 0.12, "decay": 0.2, "highpass": 1500, "lowpass": 6000}, "gain": -14}]}
+		{"layers": [{"take": "main-1565909401"}, {"synth": {"wave": "noise", "seconds": 0.35, "attack": 0.12, "decay": 0.2, "highpass": 1500, "lowpass": 6000}, "gain": -14}]},
+		{"layers": [{"take": "main-1565909400"}, {"take": "main-1565909404"}]},
+		{"layers": [{"take": "main-1565909405"}, {"take": "main-1565909406"}]},
+		{"layers": [{"take": "main-1565909407"}, {"take": "main-1565909400"}]}
 	]
 }
