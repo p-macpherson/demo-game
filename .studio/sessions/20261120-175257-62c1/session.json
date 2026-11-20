@@ -1,0 +1,18 @@
+{
+	"id": "20261120-175257-62c1",
+	"title": "Sound: footstep",
+	"agentType": "sound-designer",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-175257-62c1",
+	"baseBranch": "main",
+	"baseCommit": "8a0a66084b9855aad092cfe0c94ac310161a3260",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/sounds/footstep/sound.json",
+	"createdAt": "2026-11-20T06:52:57.567Z",
+	"updatedAt": "2026-11-20T06:55:15.122Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false
+}
