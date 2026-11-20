@@ -7,7 +7,7 @@
 	"variants": [
 		{"layers": [
 			{"take": "main-1856421249"},
-			{"wave": "sine", "seconds": 0.3, "freq": 2600, "to": 3900, "attack": 0.01, "decay": 0.25, "gain": -18}
+			{"synth": {"wave": "sine", "seconds": 0.3, "freq": 2600, "to": 3900, "attack": 0.01, "decay": 0.25}, "gain": -18}
 		]}
 	]
 }
