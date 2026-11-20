@@ -1,0 +1,16 @@
+{
+	"id": "20261120-221105-30e5",
+	"title": "Treasure map pickup for Goblin Gold",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "assets/models/treasure-map/treasure-map.glb",
+	"createdAt": "2026-11-20T11:11:05.824Z",
+	"updatedAt": "2026-11-20T23:45:52.742Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T11-11-06-087Z_01a1f8a7-2567-709f-b044-105a9978145e.jsonl"
+}
