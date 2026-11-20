@@ -1,0 +1,22 @@
+{
+	"layers": [
+		{
+			"generate": {
+				"prompt": "a single footstep on soft grass and dirt, close-up foley, dry",
+				"seconds": 1.2
+			},
+			"takes": [
+				5005,
+				5002,
+				5000,
+				5007
+			]
+		}
+	],
+	"notes": "The goblin's footsteps on the clearing's grass: one per half walk cycle, a random variant each time with a little pitch variation.",
+	"length": 0.3,
+	"highpass": 60,
+	"fade": {
+		"out": 0.06
+	}
+}
