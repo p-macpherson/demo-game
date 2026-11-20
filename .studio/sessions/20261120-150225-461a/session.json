@@ -1,0 +1,18 @@
+{
+	"id": "20261120-150225-461a",
+	"title": "Scene: clearing",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-150225-461a",
+	"baseBranch": "main",
+	"baseCommit": "bdfd6d56e085779d9e1119bc6d630873a1124158",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/scenes/clearing.json",
+	"createdAt": "2026-11-20T04:02:25.807Z",
+	"updatedAt": "2026-11-20T04:03:55.012Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false
+}
