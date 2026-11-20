@@ -1,6 +1,6 @@
 {
-  "notes": "A rolled-up treasure map lying on the ground. Not solid (no Rigid_Body): the goblin walks up to it and picks it up with E. The Treasure_Map component is added by the gameplay engineer.",
+  "notes": "A rolled-up treasure map lying on the ground. Not solid (no Rigid_Body): the goblin walks up to it and picks it up with E. Treasure_Map marks it as the pickup.",
   "entities": [
-    {"id": 1, "Name": "Treasure Map", "Transform": {}, "Mesh_Renderer": {"mesh": "models/treasure-map/treasure-map.glb"}}
+    {"id": 1, "Name": "Treasure Map", "Transform": {}, "Treasure_Map": {}, "Mesh_Renderer": {"mesh": "models/treasure-map/treasure-map.glb"}}
   ]
 }

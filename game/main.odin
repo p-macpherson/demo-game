@@ -20,6 +20,9 @@ Chest :: struct {
 	open: bool,
 }
 
+// A treasure map lying on the ground; E picks it up (see map.odin).
+Treasure_Map :: struct {}
+
 game: struct {
 	player:    Entity,
 	gold:      int,
@@ -30,6 +33,8 @@ game: struct {
 	gold_in:   f32, // seconds until the gold sound plays (0: none pending)
 	gold_at:   Vec3,
 	near:      Entity, // the closed chest the goblin can open right now, if any
+	near_map:  Entity, // the treasure map the goblin can pick up right now, if any
+	has_map:   bool, // the map has been found
 }
 
 main :: proc() {
@@ -39,6 +44,7 @@ main :: proc() {
 setup :: proc() {
 	engine.register_component(Player)
 	engine.register_component(Chest)
+	engine.register_component(Treasure_Map)
 	input.bind("move_x", input.key(.A, -1), input.key(.D), input.key(.LEFT, -1), input.key(.RIGHT), input.pad_stick(.LEFT_X))
 	input.bind("move_y", input.key(.W), input.key(.S, -1), input.key(.UP), input.key(.DOWN, -1), input.pad_stick(.LEFT_Y, -1))
 	input.bind("look_x", input.pad_stick(.RIGHT_X))
@@ -70,6 +76,7 @@ update :: proc(dt: f32) {
 	if game.player == 0 || !engine.alive(game.player) do return
 	control_player(dt)
 	update_chests()
+	update_map()
 	update_gold_sound(dt)
 	update_camera(dt)
 }
