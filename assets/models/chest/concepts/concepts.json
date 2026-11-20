@@ -1,0 +1,26 @@
+{
+	"chest-962350512.png": {
+		"prompt": "A stylised wooden treasure chest with iron bands and a brass lock, lid closed, three-quarter front view",
+		"seed": 962350512,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:36:12.188Z"
+	},
+	"chest-962350513.png": {
+		"prompt": "A stylised wooden treasure chest with iron bands and a brass lock, lid closed, three-quarter front view",
+		"seed": 962350513,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:36:12.188Z"
+	},
+	"chest-962350514.png": {
+		"prompt": "A stylised wooden treasure chest with iron bands and a brass lock, lid closed, three-quarter front view",
+		"seed": 962350514,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:36:12.188Z"
+	},
+	"chest-962350515.png": {
+		"prompt": "A stylised wooden treasure chest with iron bands and a brass lock, lid closed, three-quarter front view",
+		"seed": 962350515,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T00:36:12.188Z"
+	}
+}
