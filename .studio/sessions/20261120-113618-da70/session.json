@@ -1,0 +1,18 @@
+{
+	"id": "20261120-113618-da70",
+	"title": "Model: barrel",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-113618-da70",
+	"baseBranch": "main",
+	"baseCommit": "40a7140f266de62e2328888073512332db577b22",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/models/barrel/model.json",
+	"createdAt": "2026-11-20T00:36:18.992Z",
+	"updatedAt": "2026-11-20T01:06:06.823Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false
+}
