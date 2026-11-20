@@ -1,0 +1,16 @@
+{
+	"id": "20261121-100051-4691",
+	"title": "Clearing surfaces: grass + cobblestone",
+	"agentType": "art-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"parentId": "20261121-100025-b617",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T23:00:51.403Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-00-51-411Z_01a1fb30-f253-77c4-81f2-ba6d0fb4c7a1.jsonl"
+}

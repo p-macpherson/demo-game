@@ -1,0 +1,16 @@
+{
+	"id": "20261121-100355-f0ae",
+	"title": "Textured ground + cobblestone path",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"parentId": "20261121-100025-b617",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T23:03:55.777Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-03-55-787Z_01a1fb33-c28b-77c4-81f2-ba724ed07dae.jsonl"
+}

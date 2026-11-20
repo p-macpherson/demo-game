@@ -1,0 +1,16 @@
+{
+	"id": "20261121-094952-5399",
+	"title": "Grass and cobblestone textures",
+	"agentType": "art-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-094907-3c11",
+	"parentId": "20261121-094907-3c11",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T22:49:52.203Z",
+	"updatedAt": "2026-11-20T23:00:05.071Z",
+	"outcome": "discarded",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T22-49-52-211Z_01a1fb26-e353-77e2-89aa-edb1a02639e7.jsonl"
+}

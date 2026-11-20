@@ -1,0 +1,17 @@
+{
+	"id": "20261121-095008-1b46",
+	"title": "Grass, cobblestone and path-strip textures",
+	"agentType": "texture-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-094907-3c11",
+	"parentId": "20261121-094952-5399",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T22:50:08.205Z",
+	"updatedAt": "2026-11-20T23:00:05.071Z",
+	"outcome": "discarded",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T22-50-08-212Z_01a1fb27-21d4-77e2-89aa-edb2099b116a.jsonl",
+	"error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tools.18.custom.input_schema: JSON schema is invalid. It must match JSON Schema draft 2020-12 (https://json-schema.org/draft/2020-12). Learn more about tool use at https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.\"},\"request_id\":\"req_011ChEzoqhDqsDtfwucYewE4\"}"
+}

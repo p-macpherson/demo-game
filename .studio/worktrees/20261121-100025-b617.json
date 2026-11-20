@@ -1,0 +1,12 @@
+{
+	"id": "20261121-100025-b617",
+	"label": "Clearing surfaces: grass texture + cobblestone path",
+	"target": "project",
+	"branch": "studio/20261121-100025-b617",
+	"baseBranch": "main",
+	"baseCommit": "7f3afe1c1af17b6d2d58ada81af3c57a7aca8b57",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T23:00:25.722Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z"
+}

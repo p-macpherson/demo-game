@@ -1,0 +1,17 @@
+{
+	"id": "20261121-100058-bef4",
+	"title": "Cobblestone texture",
+	"agentType": "texture-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"parentId": "20261121-100051-4691",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/textures/cobblestone/texture.json",
+	"createdAt": "2026-11-20T23:00:58.770Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-00-58-776Z_01a1fb31-0f18-77c4-81f2-ba7134381c07.jsonl"
+}

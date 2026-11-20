@@ -1,0 +1,17 @@
+{
+	"id": "20261121-100501-a627",
+	"title": "Extend path branches to the chests",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-100025-b617",
+	"parentId": "20261121-100025-b617",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/scenes/clearing.json",
+	"createdAt": "2026-11-20T23:05:01.452Z",
+	"updatedAt": "2026-11-20T23:17:11.410Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-05-01-461Z_01a1fb34-c314-77c4-81f2-ba75f2b4c1b7.jsonl"
+}

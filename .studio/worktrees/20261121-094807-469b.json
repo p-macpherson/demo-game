@@ -1,0 +1,12 @@
+{
+	"id": "20261121-094807-469b",
+	"label": "Give Goblin Gold's clearing proper surfaces: replace the fla",
+	"target": "project",
+	"branch": "studio/20261121-094807-469b",
+	"baseBranch": "main",
+	"baseCommit": "ec2ea90a974105c98e4df6c9b0b261871b50ce49",
+	"status": "discarded",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T22:48:07.390Z",
+	"updatedAt": "2026-11-20T22:48:46.616Z"
+}
