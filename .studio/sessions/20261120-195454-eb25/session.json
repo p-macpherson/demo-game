@@ -1,0 +1,19 @@
+{
+	"id": "20261120-195454-eb25",
+	"title": "Projectile whoosh-by sound",
+	"agentType": "sound-designer",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-195454-eb25",
+	"baseBranch": "main",
+	"baseCommit": "085a02243b818f65177c9d9b2e7a18279525db7a",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/sounds/projectile-whoosh/sound.json",
+	"createdAt": "2026-11-20T08:54:54.355Z",
+	"updatedAt": "2026-11-20T09:44:39.744Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T08-54-54-878Z_01a1f82a-769e-767d-9067-8dd1cf10f107.jsonl"
+}
