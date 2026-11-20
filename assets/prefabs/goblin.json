@@ -1,5 +1,5 @@
 {
-  // The player. Root: the walking capsule (origin at the feet). Child: the animated goblin model.
+  "notes": "The player. Root: the walking capsule (origin at the feet). Child: the animated goblin model.",
   "entities": [
     {"id": 1, "Name": "Goblin", "Transform": {}, "Character_Controller": {"radius": 0.3, "height": 1.1}, "Player": {}},
     {"id": 2, "Name": "Goblin Model", "Transform": {"parent": 1}, "Mesh_Renderer": {"mesh": "models/goblin/goblin.glb"}, "Animator": {"clip": "idle"}}

@@ -1,23 +1,19 @@
 {
-  // Goblin Gold's clearing: the goblin starts in the middle, four chests to find, barrels and boulders as landmarks.
+  "notes": "Goblin Gold's clearing: the goblin starts in the middle, four chests to find, barrels and boulders as landmarks.",
   "environment": {"sky_zenith": [0.25, 0.45, 0.75], "sky_horizon": [0.7, 0.8, 0.85], "fog_color": [0.7, 0.8, 0.85], "fog_density": 0.02},
   "entities": [
     {"id": 1, "Name": "Sun", "Transform": {"rotation": [50, 30, 0]}, "Light": {"kind": "Directional", "intensity": 1.3, "shadows": true}},
     {"id": 2, "Name": "Camera", "Transform": {"position": [0, 3, -5]}, "Camera": {"fov": 55}},
     {"id": 3, "Name": "Ground", "Transform": {"position": [0, -0.5, 0], "scale": [40, 1, 40]}, "Mesh_Renderer": {"mesh": "cube", "material": {"color": [0.36, 0.52, 0.27, 1], "roughness": 0.95}}, "Rigid_Body": {}},
-
     {"id": 10, "prefab": "prefabs/goblin.json", "Transform": {"position": [0, 0, 0]}},
-
     {"id": 20, "prefab": "prefabs/chest.json", "Name": "Chest 1", "Transform": {"position": [4, 0, 6], "rotation": [0, 210, 0]}},
     {"id": 21, "prefab": "prefabs/chest.json", "Name": "Chest 2", "Transform": {"position": [-7, 0, 2], "rotation": [0, 100, 0]}, "Chest": {"gold": 25}},
     {"id": 22, "prefab": "prefabs/chest.json", "Name": "Chest 3", "Transform": {"position": [2, 0, -9], "rotation": [0, -15, 0]}, "Chest": {"gold": 50}},
     {"id": 23, "prefab": "prefabs/chest.json", "Name": "Chest 4", "Transform": {"position": [-4.3, 0, 11.2], "rotation": [0, 170, 0]}, "Chest": {"gold": 75}},
-
     {"id": 30, "prefab": "prefabs/barrel.json", "Transform": {"position": [5.2, 0, 6.6]}},
     {"id": 31, "prefab": "prefabs/barrel.json", "Transform": {"position": [3, 0, 7.3], "rotation": [0, 40, 0]}},
     {"id": 32, "prefab": "prefabs/barrel.json", "Transform": {"position": [-6, 0, -5]}},
     {"id": 33, "prefab": "prefabs/barrel.json", "Transform": {"position": [9, 0, -3], "rotation": [0, 70, 0]}},
-
     {"id": 40, "prefab": "prefabs/rock.json", "Transform": {"position": [-8, 0, 3.4], "rotation": [0, 30, 0]}},
     {"id": 41, "prefab": "prefabs/rock.json", "Transform": {"position": [0.5, 0, -10.5], "rotation": [0, 120, 0], "scale": [1.4, 1.4, 1.4]}},
     {"id": 42, "prefab": "prefabs/rock.json", "Transform": {"position": [-4, 0, 9], "rotation": [0, 200, 0], "scale": [1.8, 1.8, 1.8]}},

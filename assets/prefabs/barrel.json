@@ -1,1 +1,5 @@
-{"entities": [{"id": 1, "Name": "Barrel", "Transform": {}, "Mesh_Renderer": {"mesh": "models/barrel/barrel.glb"}, "Rigid_Body": {}}]}
+{
+  "entities": [
+    {"id": 1, "Name": "Barrel", "Transform": {}, "Mesh_Renderer": {"mesh": "models/barrel/barrel.glb"}, "Rigid_Body": {}}
+  ]
+}
