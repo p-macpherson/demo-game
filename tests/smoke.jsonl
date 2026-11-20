@@ -2,6 +2,8 @@
 {"cmd": "wait", "frames": 30}
 // Chests start closed, not swinging shut.
 {"cmd": "assert", "entity": "Chest 2", "component": "Animator", "field": "finished", "value": true}
+// The theme started with the game (the engine logs sounds with audio off).
+{"cmd": "assert", "sound": "music/goblin-gold/goblin-gold.ogg"}
 {"cmd": "assert", "entity": "Goblin", "component": "Character_Controller", "field": "grounded", "value": true}
 {"cmd": "screenshot", "path": "build/smoke-start.png"}
 {"cmd": "action", "name": "move_y", "state": "hold"}
@@ -15,6 +17,7 @@
 {"cmd": "assert", "entity": "Chest 1", "component": "Chest", "field": "open", "value": false}
 {"cmd": "action", "name": "interact", "state": "tap"}
 {"cmd": "wait", "frames": 2}
+{"cmd": "assert", "sound": "treasure-found", "frames": 5}
 {"cmd": "assert", "entity": "Chest 1", "component": "Chest", "field": "open", "value": true}
 {"cmd": "assert", "entity": "Goblin Model", "component": "Animator", "field": "clip", "value": "wave"}
 {"cmd": "wait", "frames": 40}
