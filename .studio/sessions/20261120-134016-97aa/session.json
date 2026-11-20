@@ -1,0 +1,18 @@
+{
+	"id": "20261120-134016-97aa",
+	"title": "Music: treasure-found",
+	"agentType": "music-composer",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-134016-97aa",
+	"baseBranch": "main",
+	"baseCommit": "c7e4569efc3dbeda700efaf92b18212efcd93de5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/music/treasure-found/song.json",
+	"createdAt": "2026-11-20T02:40:16.650Z",
+	"updatedAt": "2026-11-20T02:41:40.951Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false
+}
