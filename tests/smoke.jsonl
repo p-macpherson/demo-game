@@ -1,5 +1,7 @@
 // Goblin Gold: the goblin walks, opens a chest (gold, lid, wave), and the HUD counts it.
 {"cmd": "wait", "frames": 30}
+// Chests start closed, not swinging shut.
+{"cmd": "assert", "entity": "Chest 2", "component": "Animator", "field": "finished", "value": true}
 {"cmd": "assert", "entity": "Goblin", "component": "Character_Controller", "field": "grounded", "value": true}
 {"cmd": "screenshot", "path": "build/smoke-start.png"}
 {"cmd": "action", "name": "move_y", "state": "hold"}
@@ -18,3 +20,11 @@
 {"cmd": "wait", "frames": 40}
 {"cmd": "screenshot", "path": "build/smoke-open.png"}
 {"cmd": "assert", "entity": "Chest 2", "component": "Chest", "field": "open", "value": false}
+// The stepping stones toward chest 4 don't block the goblin.
+{"cmd": "wait", "frames": 30}
+{"cmd": "console", "line": "teleport -0.8 1"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 60}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": ">", "value": 2.9}
