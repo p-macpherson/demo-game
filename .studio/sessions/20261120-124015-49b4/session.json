@@ -1,0 +1,18 @@
+{
+	"id": "20261120-124015-49b4",
+	"title": "Model: rock",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-124015-49b4",
+	"baseBranch": "main",
+	"baseCommit": "c733fa7b3bf48127a9c4d7c25b996b50f3566550",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/models/rock/model.json",
+	"createdAt": "2026-11-20T01:40:15.912Z",
+	"updatedAt": "2026-11-20T01:58:17.400Z",
+	"worktree": "removed",
+	"outcome": "discarded",
+	"reviewRequested": false
+}
