@@ -1,0 +1,18 @@
+{
+	"id": "20261120-111627-6377",
+	"title": "Model: goblin",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"branch": "studio/20261120-111627-6377",
+	"baseBranch": "main",
+	"baseCommit": "f50a8e35c1653d47f751484e41ff623e78f0a5cf",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/models/goblin/model.json",
+	"createdAt": "2026-11-20T00:16:27.812Z",
+	"updatedAt": "2026-11-20T00:35:07.651Z",
+	"worktree": "removed",
+	"outcome": "merged",
+	"reviewRequested": false
+}
