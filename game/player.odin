@@ -2,6 +2,7 @@ package game
 
 import "core:math"
 import "core:math/linalg"
+import "core:math/rand"
 import "engine:engine"
 import "engine:input"
 import "engine:ui"
@@ -30,8 +31,29 @@ control_player :: proc(dt: f32) {
 	an := engine.get(model, engine.Animator)
 	if an == nil do return
 	if p.celebrating && (moving || an.finished) do p.celebrating = false
-	if p.celebrating do return
+	if p.celebrating {
+		game.last_step = -1
+		return
+	}
 	engine.play_animation(model, "walk" if moving else "idle")
+	update_footsteps(model, an)
+}
+
+FOOTSTEPS := [4]string{"sounds/footstep/footstep.ogg", "sounds/footstep/footstep-2.ogg", "sounds/footstep/footstep-3.ogg", "sounds/footstep/footstep-4.ogg"}
+
+// One footstep each time a foot lands: twice per walk cycle, timed from the walk clip's time.
+update_footsteps :: proc(model: Entity, an: ^engine.Animator) {
+	if an.clip != "walk" || an._current != "walk" {
+		game.last_step = -1
+		return
+	}
+	length := engine.animation_duration(model, "walk")
+	if length <= 0 do return
+	step := int(math.floor(an.time / length * 2))
+	if step != game.last_step {
+		game.last_step = step
+		engine.play_sound_at(rand.choice(FOOTSTEPS[:]), engine.world_position(game.player), volume = 0.4, pitch = 0.96 + rand.float32() * 0.08)
+	}
 }
 
 // The goblin waves once (walking cuts it short).

@@ -26,6 +26,8 @@ open_chest :: proc(e: Entity) {
 	c.open = true
 	game.gold += c.gold
 	engine.play_animation(e, "open", once = true)
+	engine.play_sound_at("sounds/chest-open/chest-open.ogg", engine.world_position(e))
+	game.gold_in, game.gold_at = 0.5, engine.world_position(e)
 	engine.play_sound(JINGLE_TREASURE, volume = 0.9, bus = .Music)
 	// Face the chest while celebrating.
 	if t := engine.get(game.player, engine.Transform); t != nil {
@@ -43,4 +45,11 @@ chests_left :: proc() -> (left, total: int) {
 		if !c.open do left += 1
 	}
 	return
+}
+
+// The coins jingle half a second after the lid starts to open.
+update_gold_sound :: proc(dt: f32) {
+	if game.gold_in <= 0 do return
+	game.gold_in -= dt
+	if game.gold_in <= 0 do engine.play_sound_at("sounds/gold/gold.ogg", game.gold_at, volume = 0.7)
 }
