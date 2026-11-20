@@ -1,0 +1,14 @@
+{
+	"id": "20261121-094807-469b",
+	"title": "Give Goblin Gold's clearing proper surfaces: replace the fla",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-094807-469b",
+	"thinking": "high",
+	"createdAt": "2026-11-20T22:48:07.385Z",
+	"updatedAt": "2026-11-20T22:48:46.616Z",
+	"outcome": "discarded",
+	"reviewRequested": false,
+	"error": "Cannot read properties of undefined (reading 'indexOf')"
+}
