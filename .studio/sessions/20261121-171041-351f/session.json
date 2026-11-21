@@ -1,0 +1,17 @@
+{
+	"id": "20261121-171041-351f",
+	"title": "Wire Goblin Gold screens into game code",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-170625-9fed",
+	"parentId": "20261121-170625-9fed",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T06:10:41.454Z",
+	"updatedAt": "2026-11-21T06:12:23.246Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T06-10-41-458Z_01a1fcba-78b2-7409-bffe-a5d94c656bc1.jsonl",
+	"closedAt": "2026-11-21T06:12:23.246Z"
+}
