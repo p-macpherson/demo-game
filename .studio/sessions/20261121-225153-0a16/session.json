@@ -1,0 +1,17 @@
+{
+	"id": "20261121-225153-0a16",
+	"title": "Place ambient effects in clearing",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T11:51:53.852Z",
+	"updatedAt": "2026-11-21T11:52:26.232Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T11-51-53-860Z_01a1fdf2-db04-7145-b108-e6428f865968.jsonl",
+	"closedAt": "2026-11-21T11:52:26.232Z"
+}
