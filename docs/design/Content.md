@@ -22,9 +22,18 @@ frame and one mossy plank button (`assets/ui/art/`) for all of them, plus coin, 
 | Treasure map | `assets/models/treasure-map` | 0.43 m rolled map, not solid; picked up with E, plays `map-pickup` |
 | Barrel | `assets/models/barrel` | 0.9 m scenery, solid |
 | Boulder | `assets/models/rock` | 0.7 m mossy scenery, solid |
+| Lantern | `assets/models/lantern` | Small iron lantern beside each chest's path end; its glass glows and a warm point light pools on the grass |
+| Gold pile | `assets/models/gold-pile` | A heap of coins, a goblet and two gems inside each chest (`prefabs/chest.json`, child "Gold Pile"); hidden until the lid lifts (0.2 s after opening) |
+| Grass tuft | `assets/models/grass-tuft`, `grass-tuft-tall` | 0.4 m and 0.66 m (with seed heads); decorative, not solid, sway in the wind |
 
 The clearing is `assets/scenes/clearing.json`: a ground tiled with the grass texture (`assets/textures/grass`, 2.5 m tile, tinted a little greener), a winding cobblestone path (`assets/textures/cobblestone`, 1.5 m tile) from the goblin's start with a branch toward each chest that stops short of it, four chests, and barrels and boulders placed
 as landmarks. Each kind of thing is a prefab in `assets/prefabs/`.
+
+A small pond (4.4 × 3.4 m of water) lies a few metres from the start, off every path, on the left of the opening view: a
+muddy bed, the water a little above it, a low mossy bank, small boulders on the bank and two in the water, and
+invisible low colliders so the goblin walks round it. About 330 grass tufts grow in a band round the clearing's
+edge, in small clumps between the paths, and tall ones on the pond bank and by rocks and barrels; never on the
+paths, the hub, the pads, or next to chests and the map.
 
 ## Music
 | Piece | Score | Where it plays |

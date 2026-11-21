@@ -1,0 +1,6 @@
+{
+  "notes": "A small swaying grass tuft (0.4 m, base at the origin). Decorative: no Rigid_Body. The wind shader needs `height` to match the model.",
+  "entities": [
+    {"id": 1, "Name": "Grass Tuft", "Transform": {}, "Mesh_Renderer": {"mesh": "models/grass-tuft/grass-tuft.glb", "no_shadow": true, "material": {"shader": "shaders/wind.glsl", "params": {"height": 0.4}}}}
+  ]
+}

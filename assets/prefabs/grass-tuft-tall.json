@@ -1,0 +1,6 @@
+{
+  "notes": "A tall grass tuft with seed heads (0.66 m, base at the origin). Decorative: no Rigid_Body.",
+  "entities": [
+    {"id": 1, "Name": "Tall Grass Tuft", "Transform": {}, "Mesh_Renderer": {"mesh": "models/grass-tuft-tall/grass-tuft-tall.glb", "no_shadow": true, "material": {"shader": "shaders/wind.glsl", "params": {"height": 0.66}}}}
+  ]
+}

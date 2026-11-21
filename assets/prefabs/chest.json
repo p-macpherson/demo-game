@@ -1,6 +1,7 @@
 {
   "notes": "A treasure chest: solid, with a hinged lid (clips \"open\" and \"close\") and some gold inside.",
   "entities": [
-    {"id": 1, "Name": "Chest", "Transform": {}, "Mesh_Renderer": {"mesh": "models/chest/chest.glb"}, "Animator": {"clip": "close", "once": true, "time": 99}, "Rigid_Body": {}, "Chest": {"gold": 10}}
+    {"id": 1, "Name": "Chest", "Transform": {}, "Mesh_Renderer": {"mesh": "models/chest/chest.glb"}, "Animator": {"clip": "close", "once": true, "time": 99}, "Rigid_Body": {}, "Chest": {"gold": 10}},
+    {"id": 2, "Name": "Gold Pile", "Transform": {"parent": 1, "position": [0, 0.30, 0]}, "Mesh_Renderer": {"mesh": "models/gold-pile/gold-pile.glb", "hidden": true, "material": {"shader": "shaders/gold.glsl"}}}
   ]
 }
