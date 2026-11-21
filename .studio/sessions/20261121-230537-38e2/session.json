@@ -1,0 +1,18 @@
+{
+	"id": "20261121-230537-38e2",
+	"title": "Design docs: Goblin Gold visual effects",
+	"agentType": "project-scoping",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "docs/design/Content.md",
+	"createdAt": "2026-11-21T12:05:37.999Z",
+	"updatedAt": "2026-11-21T12:06:16.592Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T12-05-38-002Z_01a1fdff-6e52-71d1-8405-24fda8033d75.jsonl",
+	"closedAt": "2026-11-21T12:06:16.592Z"
+}
