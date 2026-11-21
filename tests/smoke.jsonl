@@ -9,8 +9,21 @@
 {"cmd": "assert", "sound": "forest/forest.ogg"}
 {"cmd": "assert", "entity": "Goblin", "component": "Character_Controller", "field": "grounded", "value": true}
 {"cmd": "screenshot", "path": "build/smoke-start.png"}
+// Walking on grass (off every path) makes footsteps but no dust.
+{"cmd": "console", "line": "teleport -8 -6"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 60}
+{"cmd": "assert", "sound": "footstep/footstep", "frames": 40}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Player", "field": "dust_puffs", "value": 0}
+// Back at the hub: walking the cobbles along the path to chest 4 kicks up dust.
+{"cmd": "console", "line": "teleport 0 0"}
+{"cmd": "wait", "frames": 10}
 {"cmd": "action", "name": "move_y", "state": "hold"}
 {"cmd": "wait", "frames": 45}
+{"cmd": "assert", "entity": "Goblin", "component": "Player", "field": "dust_puffs", "op": ">", "value": 0}
+{"cmd": "assert", "effect": "effects/footstep-dust.json", "ok": true, "min_particles": 1}
 {"cmd": "assert", "entity": "Goblin Model", "component": "Animator", "field": "clip", "value": "run"}
 // Footsteps while walking.
 {"cmd": "assert", "sound": "footstep/footstep", "frames": 40}
@@ -24,6 +37,7 @@
 {"cmd": "assert", "entity": "Gold Pile", "component": "Mesh_Renderer", "field": "hidden", "value": true}
 {"cmd": "action", "name": "interact", "state": "tap"}
 {"cmd": "wait", "frames": 2}
+{"cmd": "assert", "effect": "effects/chest-open.json", "ok": true, "min_particles": 1}
 {"cmd": "assert", "sound": "treasure-found", "frames": 5}
 {"cmd": "assert", "sound": "chest-open/chest-open.ogg", "frames": 5}
 {"cmd": "assert", "entity": "Chest 1", "component": "Chest", "field": "open", "value": true}
@@ -32,6 +46,9 @@
 {"cmd": "assert", "entity": "Gold Pile", "component": "Mesh_Renderer", "field": "hidden", "value": false}
 // The gold follows the lid by about half a second.
 {"cmd": "assert", "sound": "gold/gold.ogg", "frames": 40}
+// The pile's gold glints loop over it.
+{"cmd": "assert", "effect": "effects/gold-glints.json", "ok": true}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "glints", "value": 1}
 {"cmd": "screenshot", "path": "build/smoke-open.png"}
 // Step round to the far side so the camera sees into the open chest unobstructed.
 {"cmd": "console", "line": "teleport 4.3 7.6"}

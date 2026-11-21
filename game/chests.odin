@@ -26,6 +26,7 @@ open_chest :: proc(e: Entity) {
 	if c == nil || c.open do return
 	c.open = true
 	game.gold += c.gold
+	engine.play_effect("effects/chest-open.json", engine.world_position(e))
 	engine.play_animation(e, "open", once = true)
 	if game.pile_in > 0 do show_gold_pile(game.pile_of)
 	game.pile_in, game.pile_of = GOLD_PILE_DELAY, e
@@ -66,6 +67,11 @@ update_gold_pile :: proc(dt: f32) {
 
 show_gold_pile :: proc(chest: Entity) {
 	game.pile_in = 0
+	// Glints loop until reset_game stops them.
+	if game.glint_count < len(game.glints) {
+		game.glints[game.glint_count] = engine.play_effect("effects/gold-glints.json", engine.world_position(chest) + {0, 0.3, 0})
+		game.glint_count += 1
+	}
 	for c in engine.children(chest) {
 		if n := engine.get(c, engine.Name); n != nil && n^ == "Gold Pile" {
 			if mr := engine.get(c, engine.Mesh_Renderer); mr != nil do mr.hidden = false

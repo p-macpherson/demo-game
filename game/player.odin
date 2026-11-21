@@ -56,7 +56,46 @@ update_footsteps :: proc(model: Entity, an: ^engine.Animator) {
 	if step != game.last_step {
 		game.last_step = step
 		engine.play_sound_at(rand.choice(FOOTSTEPS[:]), engine.world_position(game.player), volume = 0.4, pitch = 0.96 + rand.float32() * 0.08)
+		// A puff of dust under the landing foot (left/right alternately, a little behind), on cobbles only.
+		here := engine.world_position(game.player)
+		if on_cobbles(here) {
+			t := engine.get(game.player, engine.Transform)
+			fwd := linalg.quaternion_mul_vector3(t.rotation, Vec3{0, 0, 1})
+			side := linalg.quaternion_mul_vector3(t.rotation, Vec3{1, 0, 0}) * (0.12 if step % 2 == 0 else -0.12)
+			engine.play_effect("effects/footstep-dust.json", here + side - fwd * 0.1)
+			if p := engine.get(game.player, Player); p != nil do p.dust_puffs += 1
+		}
 	}
+}
+
+// Whether a ground point is on the cobblestone: within half a width of a Path's segments (points are in the
+// entity's local space; the curve is approximated by its control polyline), or inside the round hub or a pad.
+on_cobbles :: proc(p: Vec3) -> bool {
+	ents, paths := engine.view(engine.Path)
+	for path, i in paths {
+		if len(path.points) < 2 do continue
+		origin := engine.world_position(ents[i])
+		half := (path.width if path.width > 0 else 1) / 2
+		for k in 0 ..< len(path.points) - 1 {
+			if dist_to_segment(p.xz, (origin + path.points[k]).xz, (origin + path.points[k + 1]).xz) < half do return true
+		}
+	}
+	in_disc :: proc(name: string, p: Vec3) -> bool {
+		e := engine.find(name)
+		if e == 0 do return false
+		t := engine.get(e, engine.Transform)
+		return t != nil && linalg.length((p - engine.world_position(e)).xz) < t.scale.x / 2
+	}
+	if in_disc("Path Hub", p) do return true
+	for n in ([4]string{"Pad Chest 1", "Pad Chest 2", "Pad Chest 3", "Pad Chest 4"}) do if in_disc(n, p) do return true
+	return false
+}
+
+dist_to_segment :: proc(p, a, b: [2]f32) -> f32 {
+	ab := b - a
+	len2 := linalg.dot(ab, ab)
+	s := clamp(linalg.dot(p - a, ab) / len2, 0, 1) if len2 > 0 else 0
+	return linalg.length(p - (a + ab * s))
 }
 
 // The goblin waves once (walking cuts it short).
