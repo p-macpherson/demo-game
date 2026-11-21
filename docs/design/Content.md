@@ -1,6 +1,6 @@
 # Content
 
-> What's in Goblin Gold now: its screens, the things in the clearing, and its music, with the files behind each.
+> What's in Goblin Gold now: its screens, the things in the clearing, its effects and its music, with the files behind each.
 > The design itself is in the [Game Brief](Game%20Brief.md) and the docs beside it.
 
 ## Screens
@@ -12,7 +12,7 @@ frame and one mossy plank button (`assets/ui/art/`) for all of them, plus coin, 
 | Title | `assets/ui/title.json` | At start and after Quit to title; pauses the game |
 | HUD | `assets/ui/hud.json` | While playing |
 | Pause | `assets/ui/pause.json` | Esc while playing; pauses the game |
-| Win | `assets/ui/win.json` | 1.6 s after the last chest opens; pauses the game |
+| Win | `assets/ui/win.json` | 2.1 s after the last chest opens, once the victory fountain's main burst has played; pauses the game |
 
 ## World
 | Thing | Model | Notes |
@@ -34,6 +34,23 @@ muddy bed, the water a little above it, a low mossy bank, small boulders on the 
 invisible low colliders so the goblin walks round it. About 330 grass tufts grow in a band round the clearing's
 edge, in small clumps between the paths, and tall ones on the pond bank and by rocks and barrels; never on the
 paths, the hub, the pads, or next to chests and the map.
+
+Three ambient effects are entities in the scene: "Pond Fireflies" over the pond, "Lantern Embers" (a child of each
+lantern) and "Clearing Motes" over the middle of the clearing (see Effects below).
+
+## Effects
+Particle effects in `assets/effects/`, with their sprites in `assets/effects/textures/` (star glint, spinning coin
+flipbook, cartoon dust puff, firefly, ember, mote). The look is in [Art Style](Art%20Style.md).
+
+| Effect | File | Where and when |
+|---|---|---|
+| Pond fireflies | `assets/effects/fireflies.json` | Always, in the scene: about 1,400 small yellow-green fireflies wandering and pulsing over and round the pond (8 × 6 m, up to 1.8 m); a GPU field |
+| Lantern embers | `assets/effects/lantern-embers.json` | Always, on each of the 4 lanterns: a few tiny orange embers a second rising about 0.5 m from the top |
+| Clearing motes | `assets/effects/motes.json` | Always, in the scene: sparse, faint pale-warm motes drifting over the middle of the clearing (14 × 14 m, 0.3–3 m up) |
+| Footstep dust | `assets/effects/footstep-dust.json` | Each step on cobblestone (paths, hub, chest pads), never on grass: a small cream puff behind the landing foot, gone in about 0.5 s (`game/player.odin`) |
+| Chest open | `assets/effects/chest-open.json` | As a chest's lid starts to lift: about 30 gold star sparkles burst up out of it and a low puff of pale dust kicks out at its sides; about 1 s (`game/chests.odin`) |
+| Gold glints | `assets/effects/gold-glints.json` | Once the gold pile shows: 1–3 tiny star glints at a time pop and fade over it, looping until **Play again** resets the clearing |
+| Victory | `assets/effects/victory.json` | When the last chest opens: spinning gold coins and sparkles arc up and out from a ring round the goblin and fall back, about 2.5 s (`game/screens.odin`) |
 
 ## Music
 | Piece | Score | Where it plays |
