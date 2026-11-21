@@ -42,9 +42,38 @@ frame and one mossy plank button (`assets/ui/art/`) for all of them, plus coin, 
 | Treasure map | `assets/models/treasure-map` | 0.43 m rolled map, not solid; picked up with E, plays `map-pickup` |
 | Barrel | `assets/models/barrel` | 0.9 m scenery, solid |
 | Boulder | `assets/models/rock` | 0.7 m mossy scenery, solid |
+| Lantern | `assets/models/lantern` | Small iron lantern beside each chest's path end; its glass glows and a warm point light pools on the grass |
+| Gold pile | `assets/models/gold-pile` | A heap of coins, a goblet and two gems inside each chest (`prefabs/chest.json`, child "Gold Pile"); hidden until the lid lifts (0.2 s after opening) |
+| Grass tuft | `assets/models/grass-tuft`, `grass-tuft-tall` | 0.4 m and 0.66 m (with seed heads); decorative, not solid, sway in the wind |
 
 The clearing is `assets/scenes/clearing.json`: a ground tiled with the grass texture (`assets/textures/grass`, 2.5 m tile, tinted a little greener), a winding cobblestone path (`assets/textures/cobblestone`, 1.5 m tile) from the goblin's start with a branch toward each chest that stops short of it, four chests, and barrels and boulders placed
 as landmarks. Each kind of thing is a prefab in `assets/prefabs/`.
+
+A small pond (4.4 × 3.4 m of water) lies a few metres from the start, off every path, on the left of the opening view: a
+muddy bed, the water a little above it, a low mossy bank, small boulders on the bank and two in the water, and
+invisible low colliders so the goblin walks round it. About 330 grass tufts grow in a band round the clearing's
+edge, in small clumps between the paths, and tall ones on the pond bank and by rocks and barrels; never on the
+paths, the hub, the pads, or next to chests and the map.
+
+## Art direction
+Stylised and chunky, a calm green-and-stone palette under a warm afternoon light; the clearing should feel alive
+but never busy. Movement and light are small and slow so the goblin, the chests and the paths stay the clearest
+things on screen.
+
+- **Light and grade.** Post-processing (`environment.post` in the scene): soft bloom (0.45, threshold 1, so only
+  emissive things and glints glow, never the pale cobbles or the sky), a warm white balance (temperature 0.12), a
+  touch of contrast and saturation (0.06, 0.08) and a light vignette (0.25). No outlines, no chromatic aberration.
+  The sky's horizon and the fog are a warm hazy cream. The HUD is drawn after the grade and stays crisp.
+- **Glow.** Only the lanterns and the gold glow. Lantern glass (`shaders/lantern-glow.glsl` on the lantern
+  model) burns a warm candle orange with a gentle flicker, each lantern out of step. Gold
+  (`shaders/gold.glsl`) keeps its coins' own colours and gems, a faint inner warmth and a few small glints that
+  travel across the pile and bloom: it reads as coins, not a light bulb.
+- **Water** (`shaders/water.glsl` on a `grid`): slow, few-centimetre waves; deep teal looking down, lighter
+  at grazing angles; a thin, soft, broken pale line where it meets the bank and the rocks; a few faint sparkles.
+- **Wind** (`shaders/wind.glsl`): grass bends gently from the base (tips move a few centimetres, more than the
+  base), gusts drift across the clearing so neighbouring tufts move out of step. Tufts are instanced and cast
+  no shadows, to keep the game smooth.
+- **Budget.** All of this adds no measurable frame time (about 0.8 ms a frame at 1280×720 on a desktop GPU).
 
 ## Music
 | Piece | Score | Where it plays |
