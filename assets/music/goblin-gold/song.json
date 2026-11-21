@@ -79,11 +79,20 @@
         "bass": "F2:q C3 A2 C3 | C2:q G2 E2 G2 | D2:q A2 F2 A2 | Bb1:q F2 D2 F2 | F2:q C3 A2 C3 | C2:q G2 E2 G2 | G2:q D3 Bb2 D3 | A1:q E2 A2 E2",
         "perc": "conga:e! tambourine? shaker tambourine? congamute:e tambourine? shaker bongo?"
       }
+    },
+    "A_fill": {
+      "bars": 8,
+      "tracks": {
+        "flute": "A4:q D5:e E5 F5:q E5:e D5 | E5:q. D5:e C5:h | D5:q F5:e G5 A5:q G5:e F5 | G5:h. r:q | A5:q! G5:e F5 E5:q F5:e G5 | E5:q. D5:e C5:q E5 | D5:q C5:e Bb4 C5:q D5 | C#5:h E5:q A4",
+        "pluck": "D3:e! A3? D4 F4? D4 A3? D4 F4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | Bb2:e! F3? Bb3 D4? Bb3 F3? Bb3 D4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | D3:e! A3? D4 F4? D4 A3? D4 F4? | C3:e! G3? C4 E4? C4 G3? C4 E4? | Bb2:e! F3? Bb3 D4? Bb3 F3? Bb3 D4? | A2:e! E3? A3 C#4? A3 E3? A3 C#4?",
+        "bass": "D2:q. D2:e A2:h | C2:q. C2:e G2:h | Bb1:q. Bb1:e F2:h | C2:q. C2:e G2:h | D2:q. D2:e A2:h | C2:q. C2:e G2:h | Bb1:q. Bb1:e F2:h | A1:q. A1:e E2:h",
+        "perc": "conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? conga:e bongo? congamute:e bongo2 | conga:e! bongo? congamute:e bongo? timbale2:s? timbale2 conga2:s conga2 conga:s conga bongo:s bongo2:s!"
+      }
     }
   },
   "arrangement": [
     "intro",
-    "A",
+    "A_fill",
     "B",
     "A",
     "B2"
