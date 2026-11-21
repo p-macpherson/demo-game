@@ -1,4 +1,4 @@
-// Goblin Gold: walk a mossy clearing as a goblin and open every treasure chest. See docs/design/Overview.md.
+// Goblin Gold: walk a mossy clearing as a goblin and open every treasure chest. See docs/design/Game Brief.md.
 // Content (the clearing, the goblin, chests, barrels, boulders) is in assets/scenes and assets/prefabs; the title,
 // HUD, pause and win screens are data in assets/ui, driven by screens.odin (draw_ui is its per-frame hook).
 package game
