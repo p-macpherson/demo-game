@@ -1,0 +1,41 @@
+{
+	"panel-1906236131.png": {
+		"prompt": "a chunky hand-painted carved warm brown wooden border with a few small brass rivets at the corners, plain flat cream parchment inside",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, mossy forest clearing, soft painterly shading",
+		"seed": 1906236131,
+		"model": "FLUX.2-klein-4B",
+		"slice": [
+			208,
+			102,
+			208,
+			102
+		],
+		"at": "2026-11-21T06:08:08.537Z"
+	},
+	"panel-1906236132.png": {
+		"prompt": "a chunky hand-painted carved warm brown wooden border with a few small brass rivets at the corners, plain flat cream parchment inside",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, mossy forest clearing, soft painterly shading",
+		"seed": 1906236132,
+		"model": "FLUX.2-klein-4B",
+		"slice": [
+			102,
+			92,
+			102,
+			92
+		],
+		"at": "2026-11-21T06:08:08.537Z"
+	},
+	"panel-1906236133.png": {
+		"prompt": "a chunky hand-painted carved warm brown wooden border with a few small brass rivets at the corners, plain flat cream parchment inside",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, mossy forest clearing, soft painterly shading",
+		"seed": 1906236133,
+		"model": "FLUX.2-klein-4B",
+		"slice": [
+			254,
+			110,
+			254,
+			110
+		],
+		"at": "2026-11-21T06:08:08.537Z"
+	}
+}

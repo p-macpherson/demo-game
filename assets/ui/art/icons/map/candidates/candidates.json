@@ -1,0 +1,18 @@
+{
+	"map-1548556924.png": {
+		"prompt": "a rolled treasure map scroll tied with a red ribbon",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 1548556924,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:09:27.047Z"
+	},
+	"map-1548556925.png": {
+		"prompt": "a rolled treasure map scroll tied with a red ribbon",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 1548556925,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:09:27.047Z"
+	}
+}

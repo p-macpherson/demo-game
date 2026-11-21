@@ -1,0 +1,18 @@
+{
+	"coin-142808240.png": {
+		"prompt": "a small stack of shiny gold coins",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 142808240,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:08:51.799Z"
+	},
+	"coin-142808241.png": {
+		"prompt": "a small stack of shiny gold coins",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 142808241,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:08:51.799Z"
+	}
+}

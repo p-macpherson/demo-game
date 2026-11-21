@@ -1,0 +1,17 @@
+{
+	"notes": "Esc menu over the HUD.",
+	"pauses": true,
+	"modal": true,
+	"elements": [
+		{"id": "box", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 40, "anchor": "center", "size": [460, 470], "padding": 52, "children": [
+			{"id": "title", "type": "text", "text": "Paused", "anchor": "top", "offset": [0, 8], "font_size": 48, "color": "#3b2412"},
+			{"id": "menu", "type": "stack", "anchor": "bottom", "offset": [0, 6], "size": [280, 250], "gap": 16, "children": [
+				{"id": "resume", "type": "button", "text": "Resume", "frame": "ui/art/button/button.png", "border": 30, "size": [280, 64], "font_size": 28, "color": "#fff3d6", "action": "resume"},
+				{"id": "volume_bar", "type": "panel", "color": "#4a3320", "size": [280, 52], "padding": 8, "children": [
+					{"id": "volume", "type": "slider", "text": "Volume", "bind": "volume", "size": [0, 0], "color": "#fff3d6", "action": "volume"}
+				]},
+				{"id": "quit_to_title", "type": "button", "text": "Quit to title", "frame": "ui/art/button/button.png", "border": 30, "size": [280, 64], "font_size": 28, "color": "#fff3d6", "action": "quit_to_title"}
+			]}
+		]}
+	]
+}

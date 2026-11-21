@@ -1,0 +1,28 @@
+{
+	"notes": "In-game HUD. Not modal, doesn't pause. near_chest must only be set when near_map is not.",
+	"elements": [
+		{"id": "stats", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 24, "anchor": "top_left", "offset": [16, 16], "size": [270, 190], "padding": 30, "children": [
+			{"id": "rows", "type": "stack", "anchor": "top_left", "size": [210, 130], "gap": 6, "children": [
+				{"id": "gold_row", "type": "stack", "direction": "horizontal", "size": [210, 42], "gap": 10, "children": [
+					{"id": "gold_icon", "type": "image", "image": "ui/art/icons/coin/coin.png", "size": [40, 40]},
+					{"id": "gold", "type": "text", "text": "{gold}", "font_size": 30, "color": "#8a5a00"}
+				]},
+				{"id": "chest_row", "type": "stack", "direction": "horizontal", "size": [210, 42], "gap": 10, "children": [
+					{"id": "chest_icon", "type": "image", "image": "ui/art/icons/chest/chest.png", "size": [40, 40]},
+					{"id": "chests", "type": "text", "text": "{chests_opened} / {chests_total}", "font_size": 30, "color": "#3b2412"}
+				]},
+				{"id": "map_row", "type": "stack", "direction": "horizontal", "size": [210, 42], "gap": 10, "visible": "has_map", "children": [
+					{"id": "map_icon", "type": "image", "image": "ui/art/icons/map/map.png", "size": [40, 40]},
+					{"id": "map_text", "type": "text", "text": "Map found", "font_size": 26, "color": "#3b2412"}
+				]}
+			]}
+		]},
+		{"id": "prompt_chest", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 22, "anchor": "bottom", "offset": [0, 64], "size": [360, 70], "padding": 22, "visible": "near_chest", "children": [
+			{"id": "prompt_chest_text", "type": "text", "text": "E  Open the chest", "anchor": "center", "font_size": 28, "color": "#3b2412"}
+		]},
+		{"id": "prompt_map", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 22, "anchor": "bottom", "offset": [0, 64], "size": [360, 70], "padding": 22, "visible": "near_map", "children": [
+			{"id": "prompt_map_text", "type": "text", "text": "E  Pick up the map", "anchor": "center", "font_size": 28, "color": "#3b2412"}
+		]},
+		{"id": "hint", "type": "text", "text": "WASD walk  |  right-drag look  |  wheel zoom", "anchor": "bottom_right", "offset": [16, 12], "font_size": 18, "color": "#fff3d6"}
+	]
+}
