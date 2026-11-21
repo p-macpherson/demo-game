@@ -10,9 +10,9 @@
 	"thinking": "medium",
 	"linkedAsset": "assets/models/gold-pile/model.json",
 	"createdAt": "2026-11-21T09:49:42.616Z",
-	"updatedAt": "2026-11-21T09:51:47.656Z",
-	"outcome": null,
+	"updatedAt": "2026-11-21T11:47:31.715Z",
+	"outcome": "merged",
 	"reviewRequested": false,
 	"piSessionFile": "2026-11-21T09-49-42-619Z_01a1fd82-fd5b-744c-a30e-2900c1a1e0de.jsonl",
-	"closedAt": "2026-11-21T09:51:47.656Z"
+	"closedAt": "2026-11-21T11:47:31.715Z"
 }

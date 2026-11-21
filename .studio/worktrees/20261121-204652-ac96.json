@@ -1,0 +1,12 @@
+{
+	"id": "20261121-204652-ac96",
+	"label": "Living clearing: pond, wind, bloom, grade",
+	"target": "project",
+	"branch": "studio/20261121-204652-ac96",
+	"baseBranch": "main",
+	"baseCommit": "605d1868566703fb8d6598c16ff77d6c197874ba",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-21T09:46:52.410Z",
+	"updatedAt": "2026-11-21T11:47:31.702Z"
+}

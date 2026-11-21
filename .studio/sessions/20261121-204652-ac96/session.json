@@ -1,0 +1,17 @@
+{
+	"id": "20261121-204652-ac96",
+	"title": "Living clearing: pond, wind, bloom, grade",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "assets/scenes/clearing.json",
+	"createdAt": "2026-11-21T09:46:52.406Z",
+	"updatedAt": "2026-11-21T11:47:31.715Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-46-52-716Z_01a1fd80-65ab-744c-a30e-28f84d502413.jsonl",
+	"closedAt": "2026-11-21T11:47:31.715Z"
+}

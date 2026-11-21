@@ -9,9 +9,9 @@
 	"model": "anthropic/claude-sonnet-5-5",
 	"thinking": "medium",
 	"createdAt": "2026-11-21T09:49:30.652Z",
-	"updatedAt": "2026-11-21T09:51:24.146Z",
-	"outcome": null,
+	"updatedAt": "2026-11-21T11:47:31.715Z",
+	"outcome": "merged",
 	"reviewRequested": false,
 	"piSessionFile": "2026-11-21T09-49-30-656Z_01a1fd82-cea0-744c-a30e-28fc8749ee24.jsonl",
-	"closedAt": "2026-11-21T09:51:24.146Z"
+	"closedAt": "2026-11-21T11:47:31.715Z"
 }
