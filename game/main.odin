@@ -33,6 +33,8 @@ game: struct {
 	last_step: int, // index of the last footstep played in the moving clip (-1: none yet)
 	gold_in:   f32, // seconds until the gold sound plays (0: none pending)
 	gold_at:   Vec3,
+	pile_in:   f32, // seconds until the opened chest's gold pile shows (0: none pending)
+	pile_of:   Entity, // the chest whose pile is pending
 	near:      Entity, // the closed chest the goblin can open right now, if any
 	near_map:  Entity, // the treasure map the goblin can pick up right now, if any
 	has_map:   bool, // the map has been found
@@ -83,6 +85,7 @@ update :: proc(dt: f32) {
 	update_chests()
 	update_map()
 	update_gold_sound(dt)
+	update_gold_pile(dt)
 	update_camera(dt)
 }
 
