@@ -1,0 +1,17 @@
+{
+	"id": "20261121-205310-a633",
+	"title": "Gold pile revealed in opened chests",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204652-ac96",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T09:53:10.303Z",
+	"updatedAt": "2026-11-21T09:54:02.512Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-53-10-307Z_01a1fd86-28a3-744c-a30e-290737589585.jsonl",
+	"closedAt": "2026-11-21T09:54:02.512Z"
+}
