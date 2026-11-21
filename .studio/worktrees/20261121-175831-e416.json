@@ -1,0 +1,12 @@
+{
+	"id": "20261121-175831-e416",
+	"label": "UI: pause",
+	"target": "project",
+	"branch": "studio/20261121-175831-e416",
+	"baseBranch": "main",
+	"baseCommit": "f70f20e8349cd3a179212506237ed2adfb51128e",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-21T06:58:31.389Z",
+	"updatedAt": "2026-11-21T09:35:45.561Z"
+}
