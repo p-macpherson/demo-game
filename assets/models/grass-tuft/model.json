@@ -1,0 +1,39 @@
+{
+	"name": "grass-tuft",
+	"description": "Procedural stylised grass tuft, vertex coloured, double-sided",
+	"height": 0.4,
+	"textured": false,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-21T09:50:14.798Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-21T09:50:33.493Z"
+		}
+	],
+	"source": "source/edited2.glb",
+	"stats": {
+		"primitives": 1,
+		"vertices": 300,
+		"max_primitive_vertices": 300,
+		"triangles": 140,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			0.42,
+			0.4,
+			0.385
+		],
+		"decimated": [],
+		"floaters_removed": 0,
+		"loose_pieces_bound": 0,
+		"seconds": 1
+	}
+}
