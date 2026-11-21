@@ -379,6 +379,12 @@
     {"id": 1326, "prefab": "prefabs/grass-tuft.json", "Name": "Grass", "Transform": {"position": [-2.335, 0, 1.942], "rotation": [0, 120.9, 0], "scale": [1.24, 1.24, 1.24]}},
     {"id": 1327, "prefab": "prefabs/grass-tuft.json", "Name": "Grass", "Transform": {"position": [-2.029, 0, 2.66], "rotation": [0, 199.4, 0], "scale": [1.26, 1.26, 1.26]}},
     {"id": 1328, "prefab": "prefabs/grass-tuft.json", "Name": "Grass", "Transform": {"position": [-2.345, 0, 2.067], "rotation": [0, 100.5, 0], "scale": [1.02, 1.02, 1.02]}},
-    {"id": 1329, "prefab": "prefabs/grass-tuft.json", "Name": "Grass", "Transform": {"position": [-2.78, 0, 2.473], "rotation": [0, 70.7, 0], "scale": [0.86, 0.86, 0.86]}}
+    {"id": 1329, "prefab": "prefabs/grass-tuft.json", "Name": "Grass", "Transform": {"position": [-2.78, 0, 2.473], "rotation": [0, 70.7, 0], "scale": [0.86, 0.86, 0.86]}},
+    {"id": 1401, "Name": "Pond Fireflies", "notes": "Soft firefly shimmer over the pond (field 8 x 6 m, 0.2-1.8 m up).", "Transform": {"position": [5.6, 0.1, 0.2]}, "Effect": {"path": "effects/fireflies.json"}},
+    {"id": 1402, "Name": "Lantern Embers", "notes": "Small embers rising from lantern 45; child so it moves with the lantern.", "Transform": {"parent": 45, "position": [0, 0, 0]}, "Effect": {"path": "effects/lantern-embers.json"}},
+    {"id": 1403, "Name": "Lantern Embers", "notes": "Small embers rising from lantern 46; child so it moves with the lantern.", "Transform": {"parent": 46, "position": [0, 0, 0]}, "Effect": {"path": "effects/lantern-embers.json"}},
+    {"id": 1404, "Name": "Lantern Embers", "notes": "Small embers rising from lantern 47; child so it moves with the lantern.", "Transform": {"parent": 47, "position": [0, 0, 0]}, "Effect": {"path": "effects/lantern-embers.json"}},
+    {"id": 1405, "Name": "Lantern Embers", "notes": "Small embers rising from lantern 48; child so it moves with the lantern.", "Transform": {"parent": 48, "position": [0, 0, 0]}, "Effect": {"path": "effects/lantern-embers.json"}},
+    {"id": 1406, "Name": "Clearing Motes", "notes": "Faint drifting dust motes over the middle of the clearing (14 x 14 m, 0.3-3 m up); meant to be noticed only on a second look.", "Transform": {"position": [0, 0, 0]}, "Effect": {"path": "effects/motes.json"}}
   ]
 }
