@@ -1,0 +1,16 @@
+{
+	"id": "20261120-221623-78f3",
+	"title": "Place the treasure map",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"parentId": "20261120-221105-30e5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T11:16:23.597Z",
+	"updatedAt": "2026-11-21T03:46:23.151Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T11-16-23-610Z_01a1f8ab-fdba-709f-b044-1060113ff260.jsonl"
+}

@@ -1,0 +1,16 @@
+{
+	"id": "20261120-221133-3bff",
+	"title": "Treasure map model",
+	"agentType": "art-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"parentId": "20261120-221105-30e5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T11:11:33.439Z",
+	"updatedAt": "2026-11-21T03:46:23.151Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T11-11-33-447Z_01a1f8a7-9046-709f-b044-105cb145927a.jsonl"
+}

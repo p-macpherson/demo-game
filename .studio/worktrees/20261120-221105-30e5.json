@@ -1,0 +1,12 @@
+{
+	"id": "20261120-221105-30e5",
+	"label": "Treasure map pickup for Goblin Gold",
+	"target": "project",
+	"branch": "studio/20261120-221105-30e5",
+	"baseBranch": "main",
+	"baseCommit": "a5c8862de5d7135ace782e61c855fa4f47a4a16d",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-20T11:11:05.830Z",
+	"updatedAt": "2026-11-21T03:46:23.139Z"
+}

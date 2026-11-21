@@ -1,0 +1,16 @@
+{
+	"id": "20261120-221655-06a3",
+	"title": "Treasure map pickup code",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"parentId": "20261120-221105-30e5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T11:16:55.745Z",
+	"updatedAt": "2026-11-21T03:46:23.151Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T11-16-55-751Z_01a1f8ac-7b47-709f-b044-10637b74838e.jsonl"
+}

@@ -1,0 +1,16 @@
+{
+	"id": "20261120-221133-2333",
+	"title": "Map pickup sound",
+	"agentType": "audio-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"parentId": "20261120-221105-30e5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-20T11:11:33.446Z",
+	"updatedAt": "2026-11-21T03:46:23.151Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T11-11-33-451Z_01a1f8a7-904b-709f-b044-105f6865f747.jsonl"
+}
