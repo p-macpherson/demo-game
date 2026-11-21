@@ -1,0 +1,17 @@
+{
+	"id": "20261121-230311-357f",
+	"title": "Footstep dust: make it readable",
+	"agentType": "vfx-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T12:03:11.383Z",
+	"updatedAt": "2026-11-21T12:04:52.274Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T12-03-11-388Z_01a1fdfd-319c-71d1-8405-24fba04dd7af.jsonl",
+	"closedAt": "2026-11-21T12:04:52.274Z"
+}

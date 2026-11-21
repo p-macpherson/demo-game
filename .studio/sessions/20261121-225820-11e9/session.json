@@ -1,0 +1,17 @@
+{
+	"id": "20261121-225820-11e9",
+	"title": "Effects readability pass",
+	"agentType": "vfx-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T11:58:20.624Z",
+	"updatedAt": "2026-11-21T12:01:55.571Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T11-58-20-627Z_01a1fdf8-c1d3-71d1-8405-24f92a193569.jsonl",
+	"closedAt": "2026-11-21T12:01:55.571Z"
+}

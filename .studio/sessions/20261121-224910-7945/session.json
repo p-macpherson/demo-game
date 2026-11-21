@@ -1,0 +1,17 @@
+{
+	"id": "20261121-224910-7945",
+	"title": "Goblin Gold event effects",
+	"agentType": "vfx-artist",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T11:49:10.315Z",
+	"updatedAt": "2026-11-21T11:51:14.312Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T11-49-10-319Z_01a1fdf0-5c2f-7145-b108-e63d244c1f7c.jsonl",
+	"closedAt": "2026-11-21T11:51:14.312Z"
+}
