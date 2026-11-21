@@ -37,3 +37,13 @@
 {"cmd": "wait", "frames": 60}
 {"cmd": "action", "name": "move_y", "state": "release"}
 {"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": ">", "value": 2.9}
+// The treasure map: walk up, pick it up with E, it disappears and the HUD says so.
+{"cmd": "console", "line": "teleport -5.1 -3.1"}
+{"cmd": "wait", "frames": 20}
+{"cmd": "assert", "entity": "Treasure Map", "exists": true}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 2}
+{"cmd": "assert", "sound": "map-pickup/map-pickup.ogg", "frames": 5}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Treasure Map", "exists": false}
+{"cmd": "screenshot", "path": "build/smoke-map.png"}

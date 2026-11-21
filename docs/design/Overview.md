@@ -17,13 +17,15 @@ gold inside. Find every chest to win.
 ## Core loop
 1. Explore the clearing with **WASD** (hold the right mouse button and drag to turn the camera, wheel to zoom).
 2. Near a closed chest, press **E** to open it: the lid swings open, gold is added to the counter and the goblin waves.
-3. When every chest is open, the clearing is cleared.
+3. A treasure map lies in the clearing: press **E** next to it to pick it up (a paper rustle) and the HUD shows "Map found".
+4. When every chest is open, the clearing is cleared.
 
 ## World
 | Thing | Model | Notes |
 |---|---|---|
 | Goblin (player) | `assets/models/goblin` | 1.1 m tall, rigged; clips `idle`, `walk`, `wave` |
 | Treasure chest | `assets/models/chest` | 0.6 m; hinge rig with `open`/`close` clips; holds gold |
+| Treasure map | `assets/models/treasure-map` | 0.43 m rolled map, not solid; picked up with E, plays `map-pickup` |
 | Barrel | `assets/models/barrel` | 0.9 m scenery, solid |
 | Boulder | `assets/models/rock` | 0.7 m mossy scenery, solid |
 

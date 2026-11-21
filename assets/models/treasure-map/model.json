@@ -1,0 +1,57 @@
+{
+	"name": "treasure-map",
+	"description": "Chunky rolled parchment treasure map with red ribbon, lying on its side",
+	"concept": "concepts/treasure-map-329048685.png",
+	"conceptSource": {
+		"prompt": "chunky stylised cartoon rolled-up parchment scroll lying on its side, thick cream parchment roll with visible curled ends, tied with a bright red ribbon bow around the middle, hand-painted low-poly game prop, warm colours",
+		"seed": 329048685,
+		"model": "FLUX.2-klein-4B",
+		"at": "2026-11-20T11:12:54.259Z"
+	},
+	"height": 0.23,
+	"textured": true,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "shape",
+			"model": "hunyuan3d-dit-v2-mini-turbo",
+			"seed": 1554076272,
+			"seconds": 45.2,
+			"at": "2026-11-20T11:15:09.240Z"
+		},
+		{
+			"kind": "texture",
+			"model": "hunyuan3d-paint-v2-0-turbo",
+			"seconds": 42.4,
+			"at": "2026-11-20T11:15:51.643Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 2,
+			"at": "2026-11-20T11:15:53.688Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1.3,
+			"at": "2026-11-20T11:16:03.874Z"
+		}
+	],
+	"source": "source/textured.glb",
+	"stats": {
+		"primitives": 1,
+		"vertices": 24106,
+		"max_primitive_vertices": 24106,
+		"triangles": 40000,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			0.428,
+			0.23,
+			0.281
+		],
+		"decimated": [],
+		"seconds": 1.3
+	}
+}
