@@ -1,0 +1,218 @@
+{
+ "notes": "One-shot at the goblin's feet when the last chest opens: coins and gold sparkles fountain up and outward from a ring ~0.5 m around him (clear of his head), falling back around. Radius ~1.5 m.",
+ "emitters": [
+  {
+   "name": "coins",
+   "max": 70,
+   "burst": [
+    {
+     "at": 0,
+     "count": [
+      20,
+      24
+     ]
+    },
+    {
+     "at": 0.3,
+     "count": [
+      12,
+      14
+     ]
+    },
+    {
+     "at": 0.6,
+     "count": [
+      8,
+      10
+     ]
+    }
+   ],
+   "shape": {
+    "kind": "ring",
+    "radius": 0.5
+   },
+   "life": [
+    1.9,
+    2.4
+   ],
+   "speed": [
+    0.8,
+    1.8
+   ],
+   "gravity": 4,
+   "drag": 0.2,
+   "rotation": [
+    0,
+    360
+   ],
+   "rotation_speed": [
+    -120,
+    120
+   ],
+   "size": [
+    [
+     0,
+     0.02
+    ],
+    [
+     0.05,
+     0.17
+    ],
+    [
+     0.8,
+     0.17
+    ],
+    [
+     1,
+     0.03
+    ]
+   ],
+   "size_random": [
+    0.8,
+    1.2
+   ],
+   "color": [
+    [
+     0,
+     "#ffe9a0",
+     1,
+     1.3
+    ],
+    [
+     1,
+     "#ffd060",
+     1,
+     1
+    ]
+   ],
+   "texture": "effects/textures/coin/coin.png",
+   "flipbook": [
+    8,
+    1
+   ],
+   "fps": 12,
+   "random_frame": true,
+   "blend": "alpha",
+   "offset": [
+    0,
+    0.2,
+    0
+   ],
+   "velocity": [
+    0,
+    3.6,
+    0
+   ]
+  },
+  {
+   "name": "sparkles",
+   "max": 120,
+   "burst": [
+    {
+     "at": 0,
+     "count": [
+      30,
+      36
+     ]
+    },
+    {
+     "at": 0.3,
+     "count": [
+      20,
+      24
+     ]
+    },
+    {
+     "at": 0.8,
+     "count": [
+      14,
+      16
+     ]
+    },
+    {
+     "at": 1.3,
+     "count": [
+      12,
+      14
+     ]
+    }
+   ],
+   "shape": {
+    "kind": "ring",
+    "radius": 0.6
+   },
+   "life": [
+    1.2,
+    2.2
+   ],
+   "speed": [
+    0.8,
+    2.2
+   ],
+   "gravity": 2.5,
+   "drag": 1.0,
+   "rotation": [
+    0,
+    90
+   ],
+   "rotation_speed": [
+    -80,
+    80
+   ],
+   "size": [
+    [
+     0,
+     0.04
+    ],
+    [
+     0.15,
+     0.2
+    ],
+    [
+     0.7,
+     0.12
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "size_random": [
+    0.6,
+    1.3
+   ],
+   "color": [
+    [
+     0,
+     "#fff4c0",
+     1,
+     3
+    ],
+    [
+     0.4,
+     "#ffc840",
+     1,
+     2.2
+    ],
+    [
+     1,
+     "#e08a10",
+     0,
+     1
+    ]
+   ],
+   "texture": "effects/textures/spark-star/spark-star.png",
+   "blend": "additive",
+   "offset": [
+    0,
+    0.2,
+    0
+   ],
+   "velocity": [
+    0,
+    3.0,
+    0
+   ]
+  }
+ ]
+}

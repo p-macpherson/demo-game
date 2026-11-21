@@ -1,0 +1,28 @@
+{
+ "notes": "One-shot at the goblin's landing foot per step: a few cream hand-painted puffs that pop up, rise ~0.2 m, spread and fade in ~0.55 s. 5-6 particles, so constant running never fogs the path.",
+ "emitters": [
+  {
+   "name": "puffs",
+   "max": 12,
+   "burst": [{"at": 0, "count": [5, 6]}],
+   "shape": {"kind": "ring", "radius": 0.05},
+   "life": [0.45, 0.65],
+   "speed": [0.3, 0.7],
+   "drag": 3.5,
+   "gravity": -0.5,
+   "rotation": [-25, 25],
+   "rotation_speed": [-20, 20],
+   "size": [[0, 0.1], [0.25, 0.28], [1, 0.4]],
+   "size_random": [0.75, 1.15],
+   "color": [
+    [0, "#fffaec", 1],
+    [0.55, "#f6eedc", 0.95],
+    [1, "#dccaa6", 0]
+   ],
+   "texture": "effects/textures/footstep-dust/cartoon/cartoon.png",
+   "blend": "alpha",
+   "soft": 0.0,
+   "offset": [0, 0.1, 0]
+  }
+ ]
+}

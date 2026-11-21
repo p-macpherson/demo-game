@@ -1,0 +1,7 @@
+{"notes": "Ambient loop (forever): a few tiny orange embers per second rising from a lantern top. Origin at the lantern's origin on the ground (emits at ~0.35 m up). CPU, ~10 alive.", "emitters": [
+	{"name": "embers", "max": 24, "rate": 4, "shape": {"kind": "point"}, "offset": [0, 0.35, 0],
+	 "life": [1.5, 2.5], "speed": 0, "velocity": [0, 0.35, 0], "gravity": 0, "drag": 0.3, "noise": 0.25, "noise_scale": 0.5,
+	 "size": [[0, 0.05], [0.5, 0.04], [1, 0.0]], "size_random": [0.6, 1.2],
+	 "color": [[0, "#ffc060", 1, 3], [0.5, "#ff8a30", 0.8, 2], [1, "#c03a10", 0, 1]],
+	 "texture": "effects/textures/ember/ember.png", "blend": "additive"}
+]}

@@ -87,6 +87,13 @@
 {"cmd": "console", "line": "teleport -4.3 10.2"}
 {"cmd": "wait", "frames": 10}
 {"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 30}
+// The coin fountain plays with the last chest's sparkles, before the win screen covers it.
+{"cmd": "assert", "effect": "effects/victory.json", "ok": true, "min_particles": 1}
+{"cmd": "assert", "effect": "effects/chest-open.json", "ok": true, "min_particles": 1}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "glints", "value": 4}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "win", "value": false}
+{"cmd": "screenshot", "path": "build/screens-victory.png"}
 {"cmd": "wait", "frames": 120}
 {"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "win", "value": true}
 {"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": false}
@@ -104,4 +111,7 @@
 {"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "gold", "value": 0}
 {"cmd": "assert", "entity": "Chest 4", "component": "Chest", "field": "open", "value": false}
 {"cmd": "assert", "entity": "Treasure Map", "exists": true}
+// The glints over the opened piles stopped with the reset.
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "glints", "value": 0}
 {"cmd": "screenshot", "path": "build/screens-again.png"}

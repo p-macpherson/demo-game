@@ -13,6 +13,7 @@ Entity :: engine.Entity
 // Marks the goblin the player controls.
 Player :: struct {
 	celebrating: bool, // playing the wave after opening a chest
+	dust_puffs:  int, // footstep dust puffs played on cobbles (tests assert none play on grass)
 }
 
 // A treasure chest. `open` turns true once the goblin opens it (the lid plays its "open" clip).
@@ -39,6 +40,8 @@ game: struct {
 	near_map:  Entity, // the treasure map the goblin can pick up right now, if any
 	has_map:   bool, // the map has been found
 	screens:   Entity, // carries Screen_State
+	glints:      [16]engine.Effect_Handle, // looping gold-glints, one per shown pile
+	glint_count: int,
 	win_in:    f32, // seconds until the win screen shows (0: not pending)
 }
 

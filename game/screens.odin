@@ -4,12 +4,13 @@ import "engine:engine"
 import "engine:input"
 
 CLEARING_SCENE :: "scenes/clearing.json"
-WIN_DELAY :: 1.6 // seconds between opening the last chest and the win screen (the lid and the wave play out)
+WIN_DELAY :: 2.1 // seconds between opening the last chest and the win screen (the lid, the wave and the victory fountain's main burst play out)
 
 // Mirrors which screen is up, so scripts can assert on it (an entity named "Screens"; see tests/screens.jsonl).
 Screen_State :: struct {
 	title, hud, pause, win: bool,
 	gold:                   int,
+	glints:                 int, // gold-glints effects still playing (none after a reset)
 }
 
 // Runs every frame as the engine's draw_ui hook (`update` doesn't run while a pausing screen is up, and the pause,
@@ -52,7 +53,9 @@ screens_frame :: proc() {
 	engine.ui_set("near_chest", game.near != 0 && game.near_map == 0)
 
 	if s := engine.get(game.screens, Screen_State); s != nil {
-		s^ = {engine.ui_shown("title"), engine.ui_shown("hud"), engine.ui_shown("pause"), engine.ui_shown("win"), game.gold}
+		glints := 0
+		for h in game.glints[:game.glint_count] do if engine.effect_playing(h) do glints += 1
+		s^ = {engine.ui_shown("title"), engine.ui_shown("hud"), engine.ui_shown("pause"), engine.ui_shown("win"), game.gold, glints}
 	}
 }
 
@@ -67,11 +70,15 @@ update_win :: proc(dt: f32) {
 		return
 	}
 	left, total := chests_left()
-	if total > 0 && left == 0 && engine.ui_shown("hud") do game.win_in = WIN_DELAY
+	if total > 0 && left == 0 && engine.ui_shown("hud") {
+		game.win_in = WIN_DELAY
+		engine.play_effect("effects/victory.json", engine.world_position(game.player))
+	}
 }
 
 // Back to a fresh game: reloads the scene (chests closed, map on the ground, goblin at the start) and the state.
 reset_game :: proc() {
+	for h in game.glints[:game.glint_count] do engine.stop_effect(h, clear = true)
 	engine.load_scene(CLEARING_SCENE)
 	game = {}
 	setup_world()
