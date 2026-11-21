@@ -1,0 +1,17 @@
+{
+	"id": "20261121-224754-6613",
+	"title": "Goblin Gold visual effects",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"createdAt": "2026-11-21T11:47:54.280Z",
+	"updatedAt": "2026-11-21T12:14:03.200Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T11-47-54-649Z_01a1fdef-3499-7145-b108-e63b9a0dd68f.jsonl",
+	"linkedAsset": "assets/effects/victory.json",
+	"closedAt": "2026-11-21T12:14:03.200Z"
+}

@@ -1,0 +1,12 @@
+{
+	"id": "20261121-224754-6613",
+	"label": "Goblin Gold visual effects",
+	"target": "project",
+	"branch": "studio/20261121-224754-6613",
+	"baseBranch": "main",
+	"baseCommit": "0e7003276b95175b26302fa32efb163684402cad",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-21T11:47:54.284Z",
+	"updatedAt": "2026-11-21T12:14:03.186Z"
+}
