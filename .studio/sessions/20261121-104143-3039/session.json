@@ -1,0 +1,15 @@
+{
+	"id": "20261121-104143-3039",
+	"title": "Resolve conflicts with main",
+	"agentType": "conflict-resolver",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261120-221105-30e5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "high",
+	"createdAt": "2026-11-20T23:41:43.901Z",
+	"updatedAt": "2026-11-20T23:45:44.811Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-20T23-41-43-916Z_01a1fb56-5e6c-72a0-95fb-b3724ef5c826.jsonl"
+}
