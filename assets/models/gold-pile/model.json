@@ -1,0 +1,45 @@
+{
+	"name": "gold-pile",
+	"description": "Heap of chunky gold coins with a goblet and two gems, sized to sit in the open chest",
+	"height": 0.2246,
+	"textured": true,
+	"rigged": false,
+	"steps": [
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 0.9,
+			"at": "2026-11-21T09:51:05.630Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 0.9,
+			"at": "2026-11-21T09:51:12.723Z"
+		},
+		{
+			"kind": "finalize",
+			"model": "blender",
+			"seconds": 1,
+			"at": "2026-11-21T09:51:37.820Z"
+		}
+	],
+	"source": "source/edited.glb",
+	"stats": {
+		"primitives": 1,
+		"vertices": 1593,
+		"max_primitive_vertices": 1593,
+		"triangles": 2716,
+		"bones": 0,
+		"animations": [],
+		"size": [
+			0.582,
+			0.225,
+			0.445
+		],
+		"decimated": [],
+		"floaters_removed": 0,
+		"loose_pieces_bound": 0,
+		"seconds": 1
+	}
+}
