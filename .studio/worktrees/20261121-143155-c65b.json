@@ -1,0 +1,12 @@
+{
+	"id": "20261121-143155-c65b",
+	"label": "Rebuild the cobble path with Paths",
+	"target": "project",
+	"branch": "studio/20261121-143155-c65b",
+	"baseBranch": "main",
+	"baseCommit": "d80920cdb13a0e1e4066795b9af0f2a5f2c7aa55",
+	"status": "merged",
+	"checkout": "removed",
+	"createdAt": "2026-11-21T03:31:55.686Z",
+	"updatedAt": "2026-11-21T03:45:05.081Z"
+}
