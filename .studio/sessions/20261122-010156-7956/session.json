@@ -1,0 +1,18 @@
+{
+	"id": "20261122-010156-7956",
+	"title": "Technical Direction: releasing note",
+	"agentType": "project-scoping",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261122-005846-80f5",
+	"parentId": "20261122-005846-80f5",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "docs/design/Technical Direction.md",
+	"createdAt": "2026-11-21T14:01:56.807Z",
+	"updatedAt": "2026-11-21T14:02:20.569Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T14-01-56-815Z_01a1fe69-eb4f-7624-a38b-fc7367e5593a.jsonl",
+	"closedAt": "2026-11-21T14:02:20.569Z"
+}
