@@ -1,0 +1,16 @@
+{
+	"id": "20261121-143155-c65b",
+	"title": "Rebuild the cobble path with Paths",
+	"agentType": "level-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-143155-c65b",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/scenes/clearing.json",
+	"createdAt": "2026-11-21T03:31:55.683Z",
+	"updatedAt": "2026-11-21T03:45:05.093Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T03-31-56-350Z_01a1fc29-213e-73c4-a1dc-462f0c764cfd.jsonl"
+}
