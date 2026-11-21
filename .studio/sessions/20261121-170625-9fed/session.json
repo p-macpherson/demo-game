@@ -1,0 +1,17 @@
+{
+	"id": "20261121-170625-9fed",
+	"title": "Goblin Gold game screens (title, HUD, pause, win)",
+	"agentType": "chief-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-170625-9fed",
+	"model": "anthropic/claude-opus-5-5",
+	"thinking": "high",
+	"linkedAsset": "assets/ui/title.json",
+	"createdAt": "2026-11-21T06:06:25.568Z",
+	"updatedAt": "2026-11-21T06:31:06.754Z",
+	"outcome": "merged",
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T06-06-25-868Z_01a1fcb6-924c-7409-bffe-a5d4d4e74628.jsonl",
+	"closedAt": "2026-11-21T06:31:06.754Z"
+}
