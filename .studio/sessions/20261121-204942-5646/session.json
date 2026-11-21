@@ -1,0 +1,18 @@
+{
+	"id": "20261121-204942-5646",
+	"title": "gold-pile model",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204930-ebab",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"linkedAsset": "assets/models/gold-pile/model.json",
+	"createdAt": "2026-11-21T09:49:42.616Z",
+	"updatedAt": "2026-11-21T09:51:47.656Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-49-42-619Z_01a1fd82-fd5b-744c-a30e-2900c1a1e0de.jsonl",
+	"closedAt": "2026-11-21T09:51:47.656Z"
+}
