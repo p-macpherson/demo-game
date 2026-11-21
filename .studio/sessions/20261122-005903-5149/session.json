@@ -1,0 +1,17 @@
+{
+	"id": "20261122-005903-5149",
+	"title": "Goblin Gold app icon",
+	"agentType": "ui-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261122-005846-80f5",
+	"parentId": "20261122-005846-80f5",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T13:59:03.441Z",
+	"updatedAt": "2026-11-21T14:00:36.718Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T13-59-03-444Z_01a1fe67-4614-7624-a38b-fc70b2b3bdf5.jsonl",
+	"closedAt": "2026-11-21T14:00:36.718Z"
+}
