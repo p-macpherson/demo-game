@@ -1,0 +1,107 @@
+// Goblin Gold's screens: title -> play -> pause -> resume -> win -> play again, and quit to title.
+{"cmd": "wait", "frames": 20}
+// The title is up over the clearing and the game is paused under it.
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "title", "value": true}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": false}
+{"cmd": "screenshot", "path": "build/screens-title.png"}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 30}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": "<", "value": 0.1}
+// Esc on the title doesn't open the pause screen.
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": false}
+// Play: the HUD shows, the title is gone, the goblin walks.
+{"cmd": "ui_click", "label": "Play"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "title", "value": false}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": true}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 30}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": ">", "value": 0.3}
+{"cmd": "screenshot", "path": "build/screens-hud.png"}
+// Near a chest the HUD prompt shows.
+{"cmd": "console", "line": "teleport 4 4.8"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "screenshot", "path": "build/screens-prompt.png"}
+// Esc pauses: the goblin stays put while move is held.
+{"cmd": "console", "line": "teleport 0 0"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": true}
+{"cmd": "screenshot", "path": "build/screens-pause.png"}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 30}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": "<", "value": 0.1}
+// Esc again resumes.
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": false}
+// Pause again, and the Resume button resumes: the goblin moves.
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "ui_click", "label": "Resume"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": false}
+{"cmd": "action", "name": "move_y", "state": "hold"}
+{"cmd": "wait", "frames": 30}
+{"cmd": "action", "name": "move_y", "state": "release"}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": ">", "value": 0.3}
+// Open one chest, then Quit to title resets everything.
+{"cmd": "console", "line": "teleport 4 4.8"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Chest 1", "component": "Chest", "field": "open", "value": true}
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "ui_click", "label": "Quit to title"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "title", "value": true}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": false}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": false}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "gold", "value": 0}
+{"cmd": "assert", "entity": "Chest 1", "component": "Chest", "field": "open", "value": false}
+{"cmd": "assert", "entity": "Goblin", "component": "Transform", "field": "position.z", "op": "<", "value": 0.1}
+{"cmd": "screenshot", "path": "build/screens-title-again.png"}
+// Play again from the title, open all four chests: the win screen shows the gold.
+{"cmd": "ui_click", "label": "Play"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "console", "line": "teleport 4 4.8"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "console", "line": "teleport -6 2"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "console", "line": "teleport 2 -8"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "win", "value": false}
+{"cmd": "console", "line": "teleport -4.3 10.2"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "action", "name": "interact", "state": "tap"}
+{"cmd": "wait", "frames": 120}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "win", "value": true}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": false}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "gold", "op": ">=", "value": 150}
+{"cmd": "screenshot", "path": "build/screens-win.png"}
+// Esc on the win screen does nothing.
+{"cmd": "key", "key": "ESCAPE", "state": "tap"}
+{"cmd": "wait", "frames": 5}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "pause", "value": false}
+// Play again resets and shows the HUD.
+{"cmd": "ui_click", "label": "Play again"}
+{"cmd": "wait", "frames": 10}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "win", "value": false}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "hud", "value": true}
+{"cmd": "assert", "entity": "Screens", "component": "Screen_State", "field": "gold", "value": 0}
+{"cmd": "assert", "entity": "Chest 4", "component": "Chest", "field": "open", "value": false}
+{"cmd": "assert", "entity": "Treasure Map", "exists": true}
+{"cmd": "screenshot", "path": "build/screens-again.png"}
