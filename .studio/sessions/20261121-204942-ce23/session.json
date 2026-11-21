@@ -1,0 +1,17 @@
+{
+	"id": "20261121-204942-ce23",
+	"title": "grass-tuft models",
+	"agentType": "3d-modeller",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204930-ebab",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T09:49:42.614Z",
+	"updatedAt": "2026-11-21T09:50:44.759Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-49-42-616Z_01a1fd82-fd58-744c-a30e-28ffcbbcae40.jsonl",
+	"closedAt": "2026-11-21T09:50:44.759Z"
+}
