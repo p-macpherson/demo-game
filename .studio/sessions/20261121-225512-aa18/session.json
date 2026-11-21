@@ -1,0 +1,17 @@
+{
+	"id": "20261121-225512-aa18",
+	"title": "Finish wiring event effects + tests",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-224754-6613",
+	"parentId": "20261121-224754-6613",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T11:55:12.613Z",
+	"updatedAt": "2026-11-21T11:57:49.508Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T11-55-12-620Z_01a1fdf5-e36c-71d1-8405-24f6d0699836.jsonl",
+	"closedAt": "2026-11-21T11:57:49.508Z"
+}
