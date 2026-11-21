@@ -1,0 +1,14 @@
+{
+	"mode": "procedural",
+	"recipe": {
+		"shape": "dust",
+		"flipbook": [
+			4,
+			4
+		]
+	},
+	"flipbook": [
+		4,
+		4
+	]
+}

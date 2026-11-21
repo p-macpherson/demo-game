@@ -1,0 +1,78 @@
+{
+ "notes": "One-shot at the goblin's foot on the ground per step: a small low kick of grey-brown stone dust, ~0.6 s, under 0.3 m high, 5 particles.",
+ "emitters": [
+  {
+   "name": "kick",
+   "max": 8,
+   "burst": [
+    {
+     "at": 0,
+     "count": [
+      4,
+      6
+     ]
+    }
+   ],
+   "shape": {
+    "kind": "ring",
+    "radius": 0.04
+   },
+   "life": [
+    0.4,
+    0.65
+   ],
+   "speed": [
+    0.4,
+    0.8
+   ],
+   "drag": 3,
+   "gravity": 0.3,
+   "rotation": [
+    0,
+    360
+   ],
+   "rotation_speed": [
+    -40,
+    40
+   ],
+   "size": [
+    [
+     0,
+     0.18
+    ],
+    [
+     1,
+     0.4
+    ]
+   ],
+   "size_random": [
+    0.8,
+    1.2
+   ],
+   "color": [
+    [
+     0,
+     "#a8a094",
+     0.9
+    ],
+    [
+     1,
+     "#b0a89a",
+     0
+    ]
+   ],
+   "texture": "effects/textures/dust-puff/dust-puff.png",
+   "flipbook": [
+    4,
+    4
+   ],
+   "blend": "alpha",
+   "soft": 0.0,
+   "offset": [
+    0,
+    0.1,
+    0
+   ]
+  }
+ ]
+}
