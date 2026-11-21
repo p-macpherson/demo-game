@@ -1,0 +1,15 @@
+{
+	"notes": "Title screen over the clearing. Shown at start; Play hides it and shows hud.",
+	"pauses": true,
+	"modal": true,
+	"elements": [
+		{"id": "box", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 40, "anchor": "center", "size": [460, 420], "padding": 52, "children": [
+			{"id": "title", "type": "text", "text": "Goblin Gold", "anchor": "top", "offset": [0, 12], "font_size": 56, "color": "#3b2412"},
+			{"id": "subtitle", "type": "text", "text": "A treasure hunt in the mossy clearing", "anchor": "top", "offset": [0, 92], "font_size": 20, "color": "#6b4a2b"},
+			{"id": "menu", "type": "stack", "anchor": "bottom", "offset": [0, 10], "size": [280, 142], "gap": 14, "children": [
+				{"id": "play", "type": "button", "text": "Play", "frame": "ui/art/button/button.png", "border": 30, "size": [280, 64], "font_size": 28, "color": "#fff3d6", "action": "play"},
+				{"id": "quit", "type": "button", "text": "Quit", "frame": "ui/art/button/button.png", "border": 30, "size": [280, 64], "font_size": 28, "color": "#fff3d6", "action": "quit"}
+			]}
+		]}
+	]
+}

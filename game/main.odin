@@ -1,5 +1,6 @@
 // Goblin Gold: walk a mossy clearing as a goblin and open every treasure chest. See docs/design/Overview.md.
-// Content (the clearing, the goblin, chests, barrels, boulders) is in assets/scenes and assets/prefabs.
+// Content (the clearing, the goblin, chests, barrels, boulders) is in assets/scenes and assets/prefabs; the title,
+// HUD, pause and win screens are data in assets/ui, driven by screens.odin (draw_ui is its per-frame hook).
 package game
 
 import "core:strconv"
@@ -35,19 +36,23 @@ game: struct {
 	near:      Entity, // the closed chest the goblin can open right now, if any
 	near_map:  Entity, // the treasure map the goblin can pick up right now, if any
 	has_map:   bool, // the map has been found
+	screens:   Entity, // carries Screen_State
+	win_in:    f32, // seconds until the win screen shows (0: not pending)
 }
 
 main :: proc() {
-	engine.run({setup = setup, init = init, update = update, draw_ui = draw_ui}, {title = "Goblin Gold", scene = "scenes/clearing.json"})
+	engine.run({setup = setup, init = init, update = update, draw_ui = screens_frame}, {title = "Goblin Gold", scene = "scenes/clearing.json"})
 }
 
 setup :: proc() {
 	engine.register_component(Player)
 	engine.register_component(Chest)
 	engine.register_component(Treasure_Map)
+	engine.register_component(Screen_State)
 	input.bind("move_x", input.key(.A, -1), input.key(.D), input.key(.LEFT, -1), input.key(.RIGHT), input.pad_stick(.LEFT_X))
 	input.bind("move_y", input.key(.W), input.key(.S, -1), input.key(.UP), input.key(.DOWN, -1), input.pad_stick(.LEFT_Y, -1))
 	input.bind("look_x", input.pad_stick(.RIGHT_X))
+	input.bind("pause", input.key(.ESCAPE), input.pad_button(.MIDDLE_RIGHT))
 	input.bind("interact", input.key(.E), input.pad_button(.RIGHT_FACE_DOWN))
 
 	// For tests and agents: move the goblin instantly.
@@ -66,14 +71,14 @@ JINGLE_TREASURE :: "music/treasure-found/treasure-found.ogg" // "Treasure Found"
 
 init :: proc() {
 	engine.play_music(MUSIC_THEME, volume = 0.6)
-	game.player = engine.find("Goblin")
-	game.cam_pitch = 25
-	game.last_step = -1
-	game.cam_dist = 4.5
+	setup_world()
+	engine.ui_set("volume", engine.volume(.Master))
+	engine.ui_show("title")
 }
 
 update :: proc(dt: f32) {
-	if game.player == 0 || !engine.alive(game.player) do return
+	if game.player == 0 || !engine.alive(game.player) || engine.ui_blocking() do return
+	update_win(dt)
 	control_player(dt)
 	update_chests()
 	update_map()

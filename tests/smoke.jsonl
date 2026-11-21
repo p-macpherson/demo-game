@@ -1,5 +1,7 @@
 // Goblin Gold: the goblin walks, opens a chest (gold, lid, wave), and the HUD counts it.
 {"cmd": "wait", "frames": 30}
+{"cmd": "ui_click", "label": "Play"}
+{"cmd": "wait", "frames": 10}
 // Chests start closed, not swinging shut.
 {"cmd": "assert", "entity": "Chest 2", "component": "Animator", "field": "finished", "value": true}
 // The theme started with the game (the engine logs sounds with audio off).

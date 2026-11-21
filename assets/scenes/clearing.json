@@ -17,7 +17,7 @@
     {"id": 33, "prefab": "prefabs/barrel.json", "Transform": {"position": [9, 0, -3], "rotation": [0, 70, 0]}},
     {"id": 40, "prefab": "prefabs/rock.json", "Transform": {"position": [-8, 0, 3.4], "rotation": [0, 30, 0]}},
     {"id": 41, "prefab": "prefabs/rock.json", "Transform": {"position": [0.5, 0, -10.5], "rotation": [0, 120, 0], "scale": [1.4, 1.4, 1.4]}},
-    {"id": 42, "prefab": "prefabs/rock.json", "Transform": {"position": [-4, 0, 9], "rotation": [0, 200, 0], "scale": [1.8, 1.8, 1.8]}},
+    {"id": 42, "prefab": "prefabs/rock.json", "Transform": {"position": [-6.8, 0, 8.4], "rotation": [0, 200, 0], "scale": [1.8, 1.8, 1.8]}},
     {"id": 43, "prefab": "prefabs/rock.json", "Transform": {"position": [10, 0, 6], "rotation": [0, 80, 0], "scale": [1.2, 1.2, 1.2]}},
     {"id": 44, "prefab": "prefabs/rock.json", "Transform": {"position": [7, 0, -9], "rotation": [0, 10, 0]}},
     {"id": 70, "Name": "Path Hub", "notes": "Round cobblestone hub (2.4 m) at the goblin's start where the four Paths meet. Flat cylinder, no Rigid_Body. Path/pad heights differ by 2 mm to avoid flicker.", "Transform": {"position": [0, 0.005, 0], "scale": [2.4, 0.012, 2.4]}, "Mesh_Renderer": {"mesh": "cylinder", "material": {"texture": "textures/cobblestone/cobblestone.png", "normal_map": "textures/cobblestone/cobblestone_normal.png", "roughness_map": "textures/cobblestone/cobblestone_roughness.png", "uv_scale": [1.6, 1.6]}}},

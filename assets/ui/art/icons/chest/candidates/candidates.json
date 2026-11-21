@@ -1,0 +1,18 @@
+{
+	"chest-1951248679.png": {
+		"prompt": "a closed wooden treasure chest with brass bands",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 1951248679,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:09:09.461Z"
+	},
+	"chest-1951248680.png": {
+		"prompt": "a closed wooden treasure chest with brass bands",
+		"style": "chunky stylised hand-painted fantasy, calm warm palette, bold dark outline, soft painterly shading",
+		"seed": 1951248680,
+		"model": "FLUX.2-klein-4B",
+		"slice": [],
+		"at": "2026-11-21T06:09:09.461Z"
+	}
+}

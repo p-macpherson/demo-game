@@ -5,7 +5,7 @@
 #   ./build.sh release            optimised build
 #   ./build.sh run [-- args]      build and run from the project root (e.g. -- --mode=hidden --control)
 #   ./build.sh check              type-check only
-#   ./build.sh test [script]      headless scripted test (default: tests/smoke.jsonl); exit code = verdict
+#   ./build.sh test [script]      headless scripted tests (default: every tests/*.jsonl); exit code = verdict
 #
 # ENGINE_DIR selects the engine checkout (default: the engine/ submodule). Engine sessions point it at
 # their worktree to test an engine change against this game before merging it.
@@ -47,7 +47,16 @@ case "$cmd" in
 	check) odin check game "$COLLECTION" ;;
 	test)
 		build -debug
-		build/game --mode=hidden --fixed-dt --script="${1:-tests/smoke.jsonl}"
+		if [[ $# -gt 0 ]]; then
+			build/game --mode=hidden --fixed-dt --script="$1"
+		else
+			failed=0
+			for script in tests/*.jsonl; do
+				echo ">> $script"
+				build/game --mode=hidden --fixed-dt --script="$script" || { echo ">> FAILED: $script" >&2; failed=1; }
+			done
+			exit $failed
+		fi
 		;;
 	*) sed -n '2,10p' "$0"; exit 1 ;;
 esac

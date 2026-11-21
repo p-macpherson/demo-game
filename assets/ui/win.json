@@ -1,0 +1,17 @@
+{
+	"notes": "Shown when every chest is open.",
+	"pauses": true,
+	"modal": true,
+	"elements": [
+		{"id": "box", "type": "panel", "frame": "ui/art/panel/panel.png", "border": 40, "anchor": "center", "size": [620, 400], "padding": 52, "children": [
+			{"id": "title", "type": "text", "text": "The clearing is cleared!", "anchor": "top", "offset": [0, 8], "font_size": 44, "color": "#3b2412"},
+			{"id": "total", "type": "stack", "direction": "horizontal", "anchor": "center", "offset": [0, 10], "size": [300, 72], "gap": 14, "children": [
+				{"id": "coin", "type": "image", "image": "ui/art/icons/coin/coin.png", "size": [64, 64]},
+				{"id": "gold", "type": "text", "text": "{gold} gold", "font_size": 44, "color": "#8a5a00"}
+			]},
+			{"id": "menu", "type": "stack", "anchor": "bottom", "offset": [0, 6], "size": [280, 64], "gap": 14, "children": [
+				{"id": "play_again", "type": "button", "text": "Play again", "frame": "ui/art/button/button.png", "border": 30, "size": [280, 64], "font_size": 28, "color": "#fff3d6", "action": "play_again"}
+			]}
+		]}
+	]
+}
