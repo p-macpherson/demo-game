@@ -7,10 +7,11 @@ import "engine:engine"
 import "engine:input"
 import "engine:ui"
 
-WALK_SPEED :: 2.2 // m/s; matches the walk clip's stride at a 1.1 m goblin
+WALK_SPEED :: 2.2 // m/s: a jog for a 1.1 m goblin, so it moves with the "run" clip (the library's walk covers about a third of that)
+MOVE_CLIP :: "run"
 TURN_SHARPNESS :: 10
 
-// WASD moves relative to the camera; the goblin turns to face where it walks and plays idle, walk or wave.
+// WASD moves relative to the camera; the goblin turns to face where it goes and plays idle, run or wave.
 control_player :: proc(dt: f32) {
 	cc := engine.get(game.player, engine.Character_Controller)
 	t := engine.get(game.player, engine.Transform)
@@ -35,22 +36,23 @@ control_player :: proc(dt: f32) {
 		game.last_step = -1
 		return
 	}
-	engine.play_animation(model, "walk" if moving else "idle")
+	engine.play_animation(model, MOVE_CLIP if moving else "idle")
 	update_footsteps(model, an)
 }
 
 FOOTSTEPS := [4]string{"sounds/footstep/footstep.ogg", "sounds/footstep/footstep-2.ogg", "sounds/footstep/footstep-3.ogg", "sounds/footstep/footstep-4.ogg"}
 
-// One footstep each time a foot lands: at 0.25 and 0.75 of the walk cycle (each leg furthest forward; 0 and 0.5
-// are the passing poses). Index -1 is the start of the clip, so no step plays when walking begins.
+// One footstep each time a foot lands: at 0.41 and 0.91 of the run cycle (where each foot is furthest forward in
+// the animation library's jog, measured on the goblin). Index -1 is the start of the clip, so no step plays when
+// moving begins.
 update_footsteps :: proc(model: Entity, an: ^engine.Animator) {
-	if an.clip != "walk" || an._current != "walk" {
+	if an.clip != MOVE_CLIP || an._current != MOVE_CLIP {
 		game.last_step = -1
 		return
 	}
-	length := engine.animation_duration(model, "walk")
+	length := engine.animation_duration(model, MOVE_CLIP)
 	if length <= 0 do return
-	step := int(math.floor((an.time / length - 0.25) * 2))
+	step := int(math.floor((an.time / length - 0.41) * 2))
 	if step != game.last_step {
 		game.last_step = step
 		engine.play_sound_at(rand.choice(FOOTSTEPS[:]), engine.world_position(game.player), volume = 0.4, pitch = 0.96 + rand.float32() * 0.08)

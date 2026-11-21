@@ -29,7 +29,7 @@ game: struct {
 	cam_yaw:   f32, // degrees; 0 looks along +Z
 	cam_pitch: f32,
 	cam_dist:  f32,
-	last_step: int, // index of the last footstep played in the walk clip (-1: none yet)
+	last_step: int, // index of the last footstep played in the moving clip (-1: none yet)
 	gold_in:   f32, // seconds until the gold sound plays (0: none pending)
 	gold_at:   Vec3,
 	near:      Entity, // the closed chest the goblin can open right now, if any
