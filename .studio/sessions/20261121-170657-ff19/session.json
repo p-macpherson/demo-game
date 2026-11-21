@@ -1,0 +1,17 @@
+{
+	"id": "20261121-170657-ff19",
+	"title": "Goblin Gold screens + UI art",
+	"agentType": "ui-designer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-170625-9fed",
+	"parentId": "20261121-170625-9fed",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T06:06:57.911Z",
+	"updatedAt": "2026-11-21T06:10:24.191Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T06-06-57-914Z_01a1fcb7-0f7a-7409-bffe-a5d77edba355.jsonl",
+	"closedAt": "2026-11-21T06:10:24.191Z"
+}

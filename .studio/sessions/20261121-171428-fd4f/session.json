@@ -1,0 +1,17 @@
+{
+	"id": "20261121-171428-fd4f",
+	"title": "Fix camera hugging the goblin near chest 4",
+	"agentType": "gameplay-engineer",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-170625-9fed",
+	"parentId": "20261121-170625-9fed",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T06:14:28.194Z",
+	"updatedAt": "2026-11-21T06:15:14.626Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T06-14-28-197Z_01a1fcbd-ee65-7409-bffe-a5da73a67f28.jsonl",
+	"closedAt": "2026-11-21T06:15:14.626Z"
+}
