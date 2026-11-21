@@ -1,0 +1,17 @@
+{
+	"id": "20261121-205310-0ef3",
+	"title": "Fix grass tuft colours",
+	"agentType": "art-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204652-ac96",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T09:53:10.299Z",
+	"updatedAt": "2026-11-21T09:58:19.500Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-53-10-302Z_01a1fd86-289e-744c-a30e-2903b2aeef6e.jsonl",
+	"closedAt": "2026-11-21T09:58:19.500Z"
+}

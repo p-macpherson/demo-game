@@ -1,0 +1,17 @@
+{
+	"id": "20261121-204930-ebab",
+	"title": "Grass tuft and gold pile models",
+	"agentType": "art-director",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204652-ac96",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T09:49:30.650Z",
+	"updatedAt": "2026-11-21T09:51:56.641Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-49-30-653Z_01a1fd82-ce9c-744c-a30e-28fac3bd9dd0.jsonl",
+	"closedAt": "2026-11-21T09:51:56.641Z"
+}

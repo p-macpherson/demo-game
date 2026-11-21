@@ -1,0 +1,17 @@
+{
+	"id": "20261121-205917-8ac9",
+	"title": "Final look pass: water, lanterns, gold, post",
+	"agentType": "shader-author",
+	"target": "project",
+	"status": "done",
+	"worktreeId": "20261121-204652-ac96",
+	"parentId": "20261121-204652-ac96",
+	"model": "anthropic/claude-sonnet-5-5",
+	"thinking": "medium",
+	"createdAt": "2026-11-21T09:59:17.319Z",
+	"updatedAt": "2026-11-21T10:02:08.633Z",
+	"outcome": null,
+	"reviewRequested": false,
+	"piSessionFile": "2026-11-21T09-59-17-322Z_01a1fd8b-c24a-744c-a30e-2909911ae8f9.jsonl",
+	"closedAt": "2026-11-21T10:02:08.633Z"
+}
